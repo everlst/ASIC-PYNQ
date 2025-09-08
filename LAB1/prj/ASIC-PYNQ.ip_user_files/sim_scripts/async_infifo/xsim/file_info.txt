@@ -1,0 +1,2 @@
+async_infifo.v,verilog,xil_defaultlib,../../../../ASIC-PYNQ.gen/sources_1/ip/async_infifo/sim/async_infifo.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

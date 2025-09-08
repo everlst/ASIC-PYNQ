@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB2/80-3-Encoder-case/rtl/Encoder_case.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Encoder_case
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB2/80-3-Encoder-case/sim/Encoder_case_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Encoder_case_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB2/80-3-Encoder-case/prj/8-3-Encoder-case.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

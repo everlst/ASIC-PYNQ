@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB2/3-bit-Counter/rtl/Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB2/3-bit-Counter/sim/Counter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_tb

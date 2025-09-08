@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Sep  8 14:59:37 2025
+# Process ID: 8420
+# Current directory: F:/GitHub/ASIC-PYNQ/LAB1/prj/ASIC-PYNQ.runs/async_infifo_synth_1
+# Command line: vivado.exe -log async_infifo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source async_infifo.tcl
+# Log file: F:/GitHub/ASIC-PYNQ/LAB1/prj/ASIC-PYNQ.runs/async_infifo_synth_1/async_infifo.vds
+# Journal file: F:/GitHub/ASIC-PYNQ/LAB1/prj/ASIC-PYNQ.runs/async_infifo_synth_1\vivado.jou
+# Running On: everlasting, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 24, Host memory: 68324 MB
+#-----------------------------------------------------------
+source async_infifo.tcl -notrace
