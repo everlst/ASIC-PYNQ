@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.gen/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v" \
+"../../../../project_1.gen/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v" \
+"../../../../project_1.gen/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v" \
+"../../../../../rtl/adder_tree.v" \
+"../../../../../rtl/fc.v" \
+"../../../../../rtl/fc_top_ip.v" \
+"../../../../../rtl/vecmul128_ip_array.v" \
+"../../../../../sim/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Sep 29 14:21:57 2025
+# Process ID: 36180
+# Current directory: F:/GitHub/ASIC-PYNQ/LAB4/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35824 F:\GitHub\ASIC-PYNQ\LAB4\prj\project_1.xpr
+# Log file: F:/GitHub/ASIC-PYNQ/LAB4/prj/vivado.log
+# Journal file: F:/GitHub/ASIC-PYNQ/LAB4/prj\vivado.jou
+# Running On: everlasting, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 24, Host memory: 68324 MB
+#-----------------------------------------------------------
+start_gui

@@ -1,0 +1,56 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: G:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 963280c4fff94221abee5f9074d9eaf0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fc_ctrl_only_behav xil_defaultlib.tb_fc_ctrl_only xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 9 for port 'addra' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:35]
+WARNING: [VRFC 10-5021] port 'wea' is not connected on this instance [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:26]
+WARNING: [VRFC 10-5021] port 'wea' is not connected on this instance [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:32]
+WARNING: [VRFC 10-5021] port 'wea' is not connected on this instance [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_16.dsp_pkg
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.input_ram_rd3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_rd3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_ram_rd3
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=8,bi_width=8...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture mult_gen_0_arch of entity xil_defaultlib.mult_gen_0 [mult_gen_0_default]
+Compiling module xil_defaultlib.vecmul128_ip_array_default
+Compiling module xil_defaultlib.adder_tree_default
+Compiling module xil_defaultlib.fc
+Compiling module xil_defaultlib.fc_top_ip_array
+Compiling module xil_defaultlib.tb_fc_ctrl_only
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fc_ctrl_only_behav

@@ -1,0 +1,783 @@
+
+*** Running vivado
+    with args -log fc_top_ip_array.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fc_top_ip_array.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source fc_top_ip_array.tcl -notrace
+Command: synth_design -top fc_top_ip_array -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 40060
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1166.691 ; gain = 25.293
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fc_top_ip_array' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:1]
+INFO: [Synth 8-6157] synthesizing module 'input_ram_rd3' [F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/.Xil/Vivado-31616-everlasting/realtime/input_ram_rd3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'input_ram_rd3' (1#1) [F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/.Xil/Vivado-31616-everlasting/realtime/input_ram_rd3_stub.v:6]
+WARNING: [Synth 8-7071] port 'wea' of module 'input_ram_rd3' is unconnected for instance 'u_input_ram' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:26]
+WARNING: [Synth 8-7071] port 'dina' of module 'input_ram_rd3' is unconnected for instance 'u_input_ram' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:26]
+WARNING: [Synth 8-7023] instance 'u_input_ram' of module 'input_ram_rd3' has 6 connections declared, but only 4 given [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:26]
+INFO: [Synth 8-6157] synthesizing module 'weight_ram_rd3' [F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/.Xil/Vivado-31616-everlasting/realtime/weight_ram_rd3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'weight_ram_rd3' (2#1) [F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/.Xil/Vivado-31616-everlasting/realtime/weight_ram_rd3_stub.v:6]
+WARNING: [Synth 8-689] width (10) of port connection 'addra' does not match port width (9) of module 'weight_ram_rd3' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:35]
+WARNING: [Synth 8-7071] port 'wea' of module 'weight_ram_rd3' is unconnected for instance 'u_weight_ram' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:32]
+WARNING: [Synth 8-7071] port 'dina' of module 'weight_ram_rd3' is unconnected for instance 'u_weight_ram' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:32]
+WARNING: [Synth 8-7023] instance 'u_weight_ram' of module 'weight_ram_rd3' has 6 connections declared, but only 4 given [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:32]
+INFO: [Synth 8-6157] synthesizing module 'bias_ram_rd3' [F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/.Xil/Vivado-31616-everlasting/realtime/bias_ram_rd3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bias_ram_rd3' (3#1) [F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/.Xil/Vivado-31616-everlasting/realtime/bias_ram_rd3_stub.v:6]
+WARNING: [Synth 8-7071] port 'wea' of module 'bias_ram_rd3' is unconnected for instance 'u_bias_ram' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:38]
+WARNING: [Synth 8-7071] port 'dina' of module 'bias_ram_rd3' is unconnected for instance 'u_bias_ram' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:38]
+WARNING: [Synth 8-7023] instance 'u_bias_ram' of module 'bias_ram_rd3' has 6 connections declared, but only 4 given [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:38]
+INFO: [Synth 8-6157] synthesizing module 'vecmul128_ip_array' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/vecmul128_ip_array.v:2]
+INFO: [Synth 8-6157] synthesizing module 'mult_gen_0' [F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/.Xil/Vivado-31616-everlasting/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mult_gen_0' (4#1) [F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/.Xil/Vivado-31616-everlasting/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vecmul128_ip_array' (5#1) [F:/GitHub/ASIC-PYNQ/LAB4/rtl/vecmul128_ip_array.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fc' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc.v:1]
+	Parameter INPUT_DIM bound to: 512 - type: integer 
+	Parameter OUTPUT_DIM bound to: 128 - type: integer 
+	Parameter GROUP_SIZE bound to: 128 - type: integer 
+	Parameter GROUPS bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'adder_tree' [F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v:1]
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+	Parameter NUM_INPUTS bound to: 128 - type: integer 
+	Parameter S1 bound to: 64 - type: integer 
+	Parameter S2 bound to: 32 - type: integer 
+	Parameter S3 bound to: 16 - type: integer 
+	Parameter S4 bound to: 8 - type: integer 
+	Parameter S5 bound to: 4 - type: integer 
+	Parameter S6 bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'adder_tree' (6#1) [F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'fc' (7#1) [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'fc_top_ip_array' (8#1) [F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1248.961 ; gain = 107.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1248.961 ; gain = 107.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1248.961 ; gain = 107.562
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1248.961 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/input_ram_rd3/input_ram_rd3/input_ram_rd3_in_context.xdc] for cell 'u_input_ram'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/input_ram_rd3/input_ram_rd3/input_ram_rd3_in_context.xdc] for cell 'u_input_ram'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/bias_ram_rd3/bias_ram_rd3/bias_ram_rd3_in_context.xdc] for cell 'u_bias_ram'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/bias_ram_rd3/bias_ram_rd3/bias_ram_rd3_in_context.xdc] for cell 'u_bias_ram'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/weight_ram_rd3/weight_ram_rd3/weight_ram_rd3_in_context.xdc] for cell 'u_weight_ram'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/weight_ram_rd3/weight_ram_rd3/weight_ram_rd3_in_context.xdc] for cell 'u_weight_ram'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[0].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[0].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[1].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[1].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[2].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[2].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[3].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[3].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[4].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[4].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[5].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[5].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[6].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[6].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[7].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[7].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[8].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[8].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[9].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[9].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[10].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[10].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[11].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[11].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[12].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[12].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[13].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[13].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[14].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[14].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[15].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[15].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[16].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[16].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[17].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[17].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[18].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[18].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[19].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[19].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[20].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[20].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[21].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[21].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[22].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[22].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[23].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[23].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[24].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[24].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[25].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[25].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[26].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[26].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[27].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[27].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[28].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[28].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[29].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[29].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[30].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[30].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[31].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[31].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[32].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[32].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[33].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[33].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[34].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[34].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[35].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[35].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[36].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[36].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[37].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[37].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[38].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[38].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[39].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[39].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[40].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[40].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[41].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[41].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[42].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[42].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[43].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[43].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[44].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[44].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[45].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[45].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[46].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[46].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[47].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[47].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[48].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[48].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[49].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[49].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[50].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[50].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[51].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[51].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[52].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[52].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[53].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[53].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[54].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[54].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[55].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[55].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[56].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[56].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[57].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[57].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[58].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[58].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[59].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[59].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[60].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[60].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[61].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[61].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[62].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[62].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[63].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[63].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[64].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[64].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[65].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[65].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[66].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[66].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[67].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[67].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[68].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[68].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[69].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[69].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[70].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[70].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[71].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[71].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[72].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[72].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[73].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[73].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[74].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[74].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[75].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[75].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[76].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[76].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[77].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[77].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[78].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[78].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[79].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[79].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[80].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[80].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[81].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[81].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[82].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[82].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[83].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[83].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[84].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[84].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[85].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[85].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[86].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[86].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[87].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[87].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[88].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[88].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[89].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[89].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[90].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[90].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[91].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[91].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[92].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[92].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[93].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[93].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[94].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[94].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[95].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[95].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[96].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[96].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[97].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[97].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[98].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[98].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[99].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[99].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[100].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[100].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[101].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[101].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[102].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[102].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[103].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[103].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[104].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[104].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[105].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[105].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[106].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[106].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[107].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[107].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[108].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[108].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[109].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[109].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[110].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[110].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[111].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[111].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[112].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[112].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[113].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[113].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[114].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[114].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[115].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[115].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[116].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[116].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[117].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[117].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[118].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[118].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[119].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[119].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[120].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[120].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[121].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[121].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[122].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[122].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[123].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[123].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[124].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[124].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[125].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[125].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[126].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[126].u_mul'
+Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[127].u_mul'
+Finished Parsing XDC File [f:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_vecmul_array/G_LANE[127].u_mul'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1372.945 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1372.945 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1372.945 ; gain = 231.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1372.945 ; gain = 231.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for u_input_ram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_bias_ram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_weight_ram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[0].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[100].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[101].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[102].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[103].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[104].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[105].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[106].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[107].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[108].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[109].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[10].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[110].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[111].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[112].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[113].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[114].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[115].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[116].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[117].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[118].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[119].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[11].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[120].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[121].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[122].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[123].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[124].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[125].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[126].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[127].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[12].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[13].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[14].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[15].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[16].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[17].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[18].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[19].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[1].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[20].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[21].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[22].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[23].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[24].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[25].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[26].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[27].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[28].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[29].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[2].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[30].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[31].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[32].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[33].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[34].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[35].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[36].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[37].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[38].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[39].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[3].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[40].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[41].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[42].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[43].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[44].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[45].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[46].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[47].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[48].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[49].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[4].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[50].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[51].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[52].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[53].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[54].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[55].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[56].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[57].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[58].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[59].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[5].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[60].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[61].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[62].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[63].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[64].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[65].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[66].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[67].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[68].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[69].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[6].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[70].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[71].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[72].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[73].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[74].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[75].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[76].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[77].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[78].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[79].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[7].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[80].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[81].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[82].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[83].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[84].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[85].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[86].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[87].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[88].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[89].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[8].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[90].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[91].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[92].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[93].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[94].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[95].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[96].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[97].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[98].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[99].u_mul . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_vecmul_array/\G_LANE[9].u_mul . (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1372.945 ; gain = 231.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1372.945 ; gain = 231.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	 128 Input   32 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 134   
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 9     
+	                7 Bit    Registers := 15    
+	                2 Bit    Registers := 15    
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 129   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1372.945 ; gain = 231.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1372.945 ; gain = 231.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1372.945 ; gain = 231.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 1413.172 ; gain = 271.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1023]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1022]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1021]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1020]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1019]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1018]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1017]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1016]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1015]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1014]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1013]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1012]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1011]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1010]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1009]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1008]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1007]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1006]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1005]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1004]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1003]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1002]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1001]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[1000]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[999]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[998]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[997]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[996]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[995]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[994]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[993]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[992]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[991]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[990]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[989]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[988]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[987]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[986]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[985]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[984]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[983]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[982]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[981]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[980]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[979]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[978]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[977]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[976]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[975]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[974]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[973]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[972]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[971]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[970]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[969]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[968]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[967]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[966]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[965]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[964]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[963]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[962]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[961]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[960]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[959]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[958]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[957]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[956]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[955]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[954]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[953]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[952]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[951]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[950]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[949]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[948]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[947]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[946]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[945]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[944]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[943]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[942]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[941]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[940]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[939]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[938]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[937]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[936]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[935]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[934]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[933]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[932]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[931]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[930]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[929]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[928]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[927]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[926]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_input_ram has unconnected pin dina[925]
+INFO: [Common 17-14] Message 'Synth 8-4442' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1426.492 ; gain = 285.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1426.492 ; gain = 285.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1426.492 ; gain = 285.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1426.492 ; gain = 285.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1426.492 ; gain = 285.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1426.492 ; gain = 285.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++----------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name     | RTL Name                       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++----------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|fc_top_ip_array | u_fc/out_channel_dly_reg[9][6] | 10     | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|fc_top_ip_array | u_fc/group_idx_dly_reg[9][1]   | 10     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|fc_top_ip_array | u_fc/bias_pipe_reg[8][7]       | 9      | 8     | YES          | NO                 | YES               | 8      | 0       | 
++----------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |input_ram_rd3  |         1|
+|2     |weight_ram_rd3 |         1|
+|3     |bias_ram_rd3   |         1|
+|4     |mult_gen_0     |       128|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |bias_ram_rd3   |     1|
+|2     |input_ram_rd3  |     1|
+|3     |mult_gen       |     1|
+|4     |mult_gen_0_    |   127|
+|131   |weight_ram_rd3 |     1|
+|132   |BUFG           |     1|
+|133   |CARRY4         |   391|
+|134   |LUT1           |     2|
+|135   |LUT2           |    75|
+|136   |LUT3           |  1252|
+|137   |LUT4           |  1203|
+|138   |LUT5           |    60|
+|139   |LUT6           |  2411|
+|140   |MUXF7          |  1024|
+|141   |MUXF8          |   512|
+|142   |SRL16E         |    17|
+|143   |FDCE           |  4382|
+|144   |FDRE           |    17|
+|145   |IBUF           |     3|
+|146   |OBUF           |    34|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1426.492 ; gain = 285.094
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 2059 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1426.492 ; gain = 161.109
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1426.492 ; gain = 285.094
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1438.496 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1927 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1438.496 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 10 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 1438.496 ; gain = 297.098
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/synth_1/fc_top_ip_array.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fc_top_ip_array_utilization_synth.rpt -pb fc_top_ip_array_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 29 15:56:50 2025...

@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v,1759127722,verilog,,F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v,,bias_ram_rd3,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v,1759127571,verilog,,F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v,,input_ram_rd3,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,1759127987,vhdl,,,,mult_gen_0,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v,1759127759,verilog,,F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v,,weight_ram_rd3,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v,1759128306,verilog,,F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc.v,,adder_tree,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc.v,1759136651,verilog,,F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v,,fc,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v,1759129743,verilog,,F:/GitHub/ASIC-PYNQ/LAB4/rtl/vecmul128_ip_array.v,,fc_top_ip_array,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/rtl/vecmul128_ip_array.v,1759128687,verilog,,F:/GitHub/ASIC-PYNQ/LAB4/sim/tb.v,,vecmul128_ip_array,,,,,,,,
+F:/GitHub/ASIC-PYNQ/LAB4/sim/tb.v,1759130169,verilog,,,,tb_fc_ctrl_only,,,,,,,,

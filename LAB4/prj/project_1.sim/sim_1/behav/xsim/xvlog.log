@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.gen/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v:39]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v:40]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v:41]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v:42]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v:43]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [F:/GitHub/ASIC-PYNQ/LAB4/rtl/adder_tree.v:44]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB4/rtl/fc_top_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_top_ip_array
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB4/rtl/vecmul128_ip_array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vecmul128_ip_array
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/GitHub/ASIC-PYNQ/LAB4/sim/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fc_ctrl_only

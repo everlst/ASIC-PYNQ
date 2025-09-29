@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Sep 29 14:39:49 2025
+# Process ID: 36604
+# Current directory: F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/mult_gen_0_synth_1
+# Command line: vivado.exe -log mult_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_gen_0.tcl
+# Log file: F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/mult_gen_0_synth_1/mult_gen_0.vds
+# Journal file: F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/mult_gen_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_gen_0.tcl -notrace

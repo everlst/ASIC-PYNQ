@@ -1,0 +1,2 @@
+bias_ram_rd3.v,verilog,xil_defaultlib,../../../../project_1.gen/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

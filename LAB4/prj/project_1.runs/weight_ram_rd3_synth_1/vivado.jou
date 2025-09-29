@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Sep 29 14:36:03 2025
+# Process ID: 18712
+# Current directory: F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/weight_ram_rd3_synth_1
+# Command line: vivado.exe -log weight_ram_rd3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source weight_ram_rd3.tcl
+# Log file: F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/weight_ram_rd3_synth_1/weight_ram_rd3.vds
+# Journal file: F:/GitHub/ASIC-PYNQ/LAB4/prj/project_1.runs/weight_ram_rd3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source weight_ram_rd3.tcl -notrace
