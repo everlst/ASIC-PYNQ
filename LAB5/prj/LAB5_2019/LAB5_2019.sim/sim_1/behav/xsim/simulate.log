@@ -1,0 +1,540 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_input_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram_fc2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram_fc2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram_fc3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram_fc3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+=== FC Top IP Testbench Start ===
+Time: 0
+VCD waveform file will be saved as: fc_top_ip_wave.vcd
+Time: 5000 - Input RAM address: 0
+Time: 5000 - Weight RAM address: 000
+Time: 5000 - Bias RAM address: 00
+Time: 15000 - Input RAM address: 0
+Time: 15000 - Weight RAM address: 000
+Time: 15000 - Bias RAM address: 00
+Time: 20000 - Reset released
+Time: 25000 - Input RAM address: 0
+Time: 25000 - Weight RAM address: 000
+Time: 25000 - Bias RAM address: 00
+Time: 35000 - Input RAM address: 0
+Time: 35000 - Weight RAM address: 000
+Time: 35000 - Bias RAM address: 00
+Time: 35000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 45000 - Input RAM address: 0
+Time: 45000 - Weight RAM address: 000
+Time: 45000 - Bias RAM address: 00
+Time: 45000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 55000 - Input RAM address: 0
+Time: 55000 - Weight RAM address: 000
+Time: 55000 - Bias RAM address: 00
+Time: 55000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 65000 - Input RAM address: 0
+Time: 65000 - Weight RAM address: 000
+Time: 65000 - Bias RAM address: 00
+Time: 65000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 65000 - Mul outputs active, p[15:0]=fffe
+Time: 70000 - Starting FC computation
+Time: 75000 - Start signal asserted
+Time: 75000 - Input RAM address: 0
+Time: 75000 - Weight RAM address: 000
+Time: 75000 - Bias RAM address: 00
+Time: 75000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 75000 - Mul outputs active, p[15:0]=fffe
+Time: 85000 - Input RAM address: 0
+Time: 85000 - Weight RAM address: 000
+Time: 85000 - Bias RAM address: 00
+Time: 85000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 85000 - Mul outputs active, p[15:0]=fffe
+Time: 95000 - Input RAM address: 0
+Time: 95000 - Weight RAM address: 000
+Time: 95000 - Bias RAM address: 00
+Time: 95000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 95000 - Mul outputs active, p[15:0]=fffe
+Time: 105000 - Input RAM address: 1
+Time: 105000 - Weight RAM address: 001
+Time: 105000 - Bias RAM address: 00
+Time: 105000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 105000 - Mul outputs active, p[15:0]=fffe
+Time: 115000 - Input RAM address: 2
+Time: 115000 - Weight RAM address: 002
+Time: 115000 - Bias RAM address: 00
+Time: 115000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 115000 - Mul outputs active, p[15:0]=fffe
+Time: 125000 - Input RAM address: 3
+Time: 125000 - Weight RAM address: 003
+Time: 125000 - Bias RAM address: 00
+Time: 125000 - Mul inputs active, a[127:120]=fa, b[127:120]=29
+Time: 125000 - Mul outputs active, p[15:0]=fffe
+Time: 135000 - Input RAM address: 0
+Time: 135000 - Weight RAM address: 004
+Time: 135000 - Bias RAM address: 01
+Time: 135000 - Mul inputs active, a[127:120]=fe, b[127:120]=f8
+Time: 135000 - Mul outputs active, p[15:0]=fffe
+Time: 145000 - Input RAM address: 1
+Time: 145000 - Weight RAM address: 005
+Time: 145000 - Bias RAM address: 01
+Time: 145000 - Mul inputs active, a[127:120]=fe, b[127:120]=51
+Time: 145000 - Mul outputs active, p[15:0]=fffe
+Time: 155000 - Input RAM address: 2
+Time: 155000 - Weight RAM address: 006
+Time: 155000 - Bias RAM address: 01
+Time: 155000 - Mul inputs active, a[127:120]=fc, b[127:120]=a8
+Time: 155000 - Mul outputs active, p[15:0]=fffe
+Time: 165000 - Input RAM address: 3
+Time: 165000 - Weight RAM address: 007
+Time: 165000 - Bias RAM address: 01
+Time: 165000 - Mul inputs active, a[127:120]=fa, b[127:120]=03
+Time: 165000 - Mul outputs active, p[15:0]=ff7e
+Time: 175000 - Input RAM address: 0
+Time: 175000 - Weight RAM address: 008
+Time: 175000 - Bias RAM address: 02
+Time: 175000 - Mul inputs active, a[127:120]=fe, b[127:120]=0c
+Time: 175000 - Mul outputs active, p[15:0]=00a0
+Time: 185000 - Input RAM address: 1
+Time: 185000 - Weight RAM address: 009
+Time: 185000 - Bias RAM address: 02
+Time: 185000 - Mul inputs active, a[127:120]=fe, b[127:120]=4c
+Time: 185000 - Mul outputs active, p[15:0]=0111
+Time: 195000 - Input RAM address: 2
+Time: 195000 - Weight RAM address: 00a
+Time: 195000 - Bias RAM address: 02
+Time: 195000 - Mul inputs active, a[127:120]=fc, b[127:120]=13
+Time: 195000 - Mul outputs active, p[15:0]=00bc
+Time: 205000 - Input RAM address: 3
+Time: 205000 - Weight RAM address: 00b
+Time: 205000 - Bias RAM address: 02
+Time: 205000 - Mul inputs active, a[127:120]=fa, b[127:120]=33
+Time: 205000 - Mul outputs active, p[15:0]=ff94
+Time: 215000 - Input RAM address: 0
+Time: 215000 - Weight RAM address: 00c
+Time: 215000 - Bias RAM address: 03
+Time: 215000 - Mul inputs active, a[127:120]=fe, b[127:120]=4d
+Time: 215000 - Mul outputs active, p[15:0]=fe84
+Time: 225000 - Input RAM address: 1
+Time: 225000 - Weight RAM address: 00d
+Time: 225000 - Bias RAM address: 03
+Time: 225000 - Mul inputs active, a[127:120]=fe, b[127:120]=15
+Time: 225000 - Mul outputs active, p[15:0]=ff37
+Time: 235000 - Input RAM address: 2
+Time: 235000 - Weight RAM address: 00e
+Time: 235000 - Bias RAM address: 03
+Time: 235000 - Mul inputs active, a[127:120]=fc, b[127:120]=b3
+Time: 235000 - Mul outputs active, p[15:0]=008e
+Time: 245000 - Input RAM address: 3
+Time: 245000 - Weight RAM address: 00f
+Time: 245000 - Bias RAM address: 03
+Time: 245000 - Mul inputs active, a[127:120]=fa, b[127:120]=4b
+Time: 245000 - Mul outputs active, p[15:0]=008c
+Time: 255000 - Input RAM address: 0
+Time: 255000 - Weight RAM address: 010
+Time: 255000 - Bias RAM address: 04
+Time: 255000 - Mul inputs active, a[127:120]=fe, b[127:120]=a9
+Time: 255000 - Mul outputs active, p[15:0]=000c
+Time: 255000 - Writing output: addr=00, data=1318
+Time: 265000 - Input RAM address: 1
+Time: 265000 - Weight RAM address: 011
+Time: 265000 - Bias RAM address: 04
+Time: 265000 - Mul inputs active, a[127:120]=fe, b[127:120]=f6
+Time: 265000 - Mul outputs active, p[15:0]=ff2b
+Time: 275000 - Input RAM address: 2
+Time: 275000 - Weight RAM address: 012
+Time: 275000 - Bias RAM address: 04
+Time: 275000 - Mul inputs active, a[127:120]=fc, b[127:120]=c6
+Time: 275000 - Mul outputs active, p[15:0]=0000
+Time: 285000 - Input RAM address: 3
+Time: 285000 - Weight RAM address: 013
+Time: 285000 - Bias RAM address: 04
+Time: 285000 - Mul inputs active, a[127:120]=fa, b[127:120]=3c
+Time: 285000 - Mul outputs active, p[15:0]=ff80
+Time: 295000 - Input RAM address: 0
+Time: 295000 - Weight RAM address: 014
+Time: 295000 - Bias RAM address: 05
+Time: 295000 - Mul inputs active, a[127:120]=fe, b[127:120]=f1
+Time: 295000 - Mul outputs active, p[15:0]=fe5c
+Time: 295000 - Writing output: addr=01, data=04e3
+Time: 305000 - Input RAM address: 1
+Time: 305000 - Weight RAM address: 015
+Time: 305000 - Bias RAM address: 05
+Time: 305000 - Mul inputs active, a[127:120]=fe, b[127:120]=0c
+Time: 305000 - Mul outputs active, p[15:0]=0012
+Time: 315000 - Input RAM address: 2
+Time: 315000 - Weight RAM address: 016
+Time: 315000 - Bias RAM address: 05
+Time: 315000 - Mul inputs active, a[127:120]=fc, b[127:120]=a0
+Time: 315000 - Mul outputs active, p[15:0]=ffc4
+Time: 325000 - Input RAM address: 3
+Time: 325000 - Weight RAM address: 017
+Time: 325000 - Bias RAM address: 05
+Time: 325000 - Mul inputs active, a[127:120]=fa, b[127:120]=62
+Time: 325000 - Mul outputs active, p[15:0]=003a
+Time: 335000 - Input RAM address: 0
+Time: 335000 - Weight RAM address: 018
+Time: 335000 - Bias RAM address: 06
+Time: 335000 - Mul inputs active, a[127:120]=fe, b[127:120]=28
+Time: 335000 - Mul outputs active, p[15:0]=ff4c
+Time: 335000 - Writing output: addr=02, data=0000
+Time: 345000 - Input RAM address: 1
+Time: 345000 - Weight RAM address: 019
+Time: 345000 - Bias RAM address: 06
+Time: 345000 - Mul inputs active, a[127:120]=fe, b[127:120]=f6
+Time: 345000 - Mul outputs active, p[15:0]=ffa9
+Time: 355000 - Input RAM address: 2
+Time: 355000 - Weight RAM address: 01a
+Time: 355000 - Bias RAM address: 06
+Time: 355000 - Mul inputs active, a[127:120]=fc, b[127:120]=f5
+Time: 355000 - Mul outputs active, p[15:0]=ffa4
+Time: 365000 - Input RAM address: 3
+Time: 365000 - Weight RAM address: 01b
+Time: 365000 - Bias RAM address: 06
+Time: 365000 - Mul inputs active, a[127:120]=fa, b[127:120]=21
+Time: 365000 - Mul outputs active, p[15:0]=ffe8
+Time: 375000 - Input RAM address: 0
+Time: 375000 - Weight RAM address: 01c
+Time: 375000 - Bias RAM address: 07
+Time: 375000 - Mul inputs active, a[127:120]=fe, b[127:120]=51
+Time: 375000 - Mul outputs active, p[15:0]=0104
+Time: 375000 - Writing output: addr=03, data=0000
+Time: 385000 - Input RAM address: 1
+Time: 385000 - Weight RAM address: 01d
+Time: 385000 - Bias RAM address: 07
+Time: 385000 - Mul inputs active, a[127:120]=fe, b[127:120]=aa
+Time: 385000 - Mul outputs active, p[15:0]=008d
+Time: 395000 - Input RAM address: 2
+Time: 395000 - Weight RAM address: 01e
+Time: 395000 - Bias RAM address: 07
+Time: 395000 - Mul inputs active, a[127:120]=fc, b[127:120]=40
+Time: 395000 - Mul outputs active, p[15:0]=0068
+Time: 405000 - Input RAM address: 3
+Time: 405000 - Weight RAM address: 01f
+Time: 405000 - Bias RAM address: 07
+Time: 405000 - Mul inputs active, a[127:120]=fa, b[127:120]=1f
+Time: 405000 - Mul outputs active, p[15:0]=ffa0
+Time: 415000 - Input RAM address: 0
+Time: 415000 - Weight RAM address: 020
+Time: 415000 - Bias RAM address: 08
+Time: 415000 - Mul inputs active, a[127:120]=fe, b[127:120]=1b
+Time: 415000 - Mul outputs active, p[15:0]=ff98
+Time: 415000 - Writing output: addr=04, data=0000
+Time: 425000 - Input RAM address: 1
+Time: 425000 - Weight RAM address: 021
+Time: 425000 - Bias RAM address: 08
+Time: 425000 - Mul inputs active, a[127:120]=fe, b[127:120]=04
+Time: 425000 - Mul outputs active, p[15:0]=003f
+Time: 435000 - Input RAM address: 2
+Time: 435000 - Weight RAM address: 022
+Time: 435000 - Bias RAM address: 08
+Time: 435000 - Mul inputs active, a[127:120]=fc, b[127:120]=6f
+Time: 435000 - Mul outputs active, p[15:0]=00b0
+Time: 445000 - Input RAM address: 3
+Time: 445000 - Weight RAM address: 023
+Time: 445000 - Bias RAM address: 08
+Time: 445000 - Mul inputs active, a[127:120]=fa, b[127:120]=65
+Time: 445000 - Mul outputs active, p[15:0]=0048
+Time: 455000 - Input RAM address: 0
+Time: 455000 - Weight RAM address: 024
+Time: 455000 - Bias RAM address: 09
+Time: 455000 - Mul inputs active, a[127:120]=fe, b[127:120]=37
+Time: 455000 - Mul outputs active, p[15:0]=fef0
+Time: 455000 - Writing output: addr=05, data=0000
+Time: 465000 - Input RAM address: 1
+Time: 465000 - Weight RAM address: 025
+Time: 465000 - Bias RAM address: 09
+Time: 465000 - Mul inputs active, a[127:120]=fe, b[127:120]=ea
+Time: 465000 - Mul outputs active, p[15:0]=ff0a
+Time: 475000 - Input RAM address: 2
+Time: 475000 - Weight RAM address: 026
+Time: 475000 - Bias RAM address: 09
+Time: 475000 - Mul inputs active, a[127:120]=fc, b[127:120]=a4
+Time: 475000 - Mul outputs active, p[15:0]=fff8
+Time: 485000 - Input RAM address: 3
+Time: 485000 - Weight RAM address: 027
+Time: 485000 - Bias RAM address: 09
+Time: 485000 - Mul inputs active, a[127:120]=fa, b[127:120]=31
+Time: 485000 - Mul outputs active, p[15:0]=004e
+Time: 495000 - Input RAM address: 0
+Time: 495000 - Weight RAM address: 028
+Time: 495000 - Bias RAM address: 0a
+Time: 495000 - Mul inputs active, a[127:120]=fe, b[127:120]=ec
+Time: 495000 - Mul outputs active, p[15:0]=0004
+Time: 495000 - Writing output: addr=06, data=0000
+Time: 505000 - Input RAM address: 1
+Time: 505000 - Weight RAM address: 029
+Time: 505000 - Bias RAM address: 0a
+Time: 505000 - Mul inputs active, a[127:120]=fe, b[127:120]=61
+Time: 505000 - Mul outputs active, p[15:0]=ff49
+Time: 515000 - Input RAM address: 2
+Time: 515000 - Weight RAM address: 02a
+Time: 515000 - Bias RAM address: 0a
+Time: 515000 - Mul inputs active, a[127:120]=fc, b[127:120]=38
+Time: 515000 - Mul outputs active, p[15:0]=ff48
+Time: 525000 - Input RAM address: 3
+Time: 525000 - Weight RAM address: 02b
+Time: 525000 - Bias RAM address: 0a
+Time: 525000 - Mul inputs active, a[127:120]=fa, b[127:120]=3f
+Time: 525000 - Mul outputs active, p[15:0]=0040
+Time: 535000 - Input RAM address: 0
+Time: 535000 - Weight RAM address: 02c
+Time: 535000 - Bias RAM address: 0b
+Time: 535000 - Mul inputs active, a[127:120]=fe, b[127:120]=0e
+Time: 535000 - Mul outputs active, p[15:0]=00a8
+Time: 535000 - Writing output: addr=07, data=0000
+Time: 545000 - Input RAM address: 1
+Time: 545000 - Weight RAM address: 02d
+Time: 545000 - Bias RAM address: 0b
+Time: 545000 - Mul inputs active, a[127:120]=fe, b[127:120]=67
+Time: 545000 - Mul outputs active, p[15:0]=ff04
+Time: 555000 - Input RAM address: 2
+Time: 555000 - Weight RAM address: 02e
+Time: 555000 - Bias RAM address: 0b
+Time: 555000 - Mul inputs active, a[127:120]=fc, b[127:120]=3b
+Time: 555000 - Mul outputs active, p[15:0]=ff7c
+Time: 565000 - Input RAM address: 3
+Time: 565000 - Weight RAM address: 02f
+Time: 565000 - Bias RAM address: 0b
+Time: 565000 - Mul inputs active, a[127:120]=fa, b[127:120]=a8
+Time: 565000 - Mul outputs active, p[15:0]=ff70
+Time: 575000 - Input RAM address: 0
+Time: 575000 - Weight RAM address: 030
+Time: 575000 - Bias RAM address: 0c
+Time: 575000 - Mul inputs active, a[127:120]=fe, b[127:120]=c0
+Time: 575000 - Mul outputs active, p[15:0]=ff90
+Time: 575000 - Writing output: addr=08, data=0000
+Time: 585000 - Input RAM address: 1
+Time: 585000 - Weight RAM address: 031
+Time: 585000 - Bias RAM address: 0c
+Time: 585000 - Mul inputs active, a[127:120]=fe, b[127:120]=f9
+Time: 585000 - Mul outputs active, p[15:0]=0102
+Time: 595000 - Input RAM address: 2
+Time: 595000 - Weight RAM address: 032
+Time: 595000 - Bias RAM address: 0c
+Time: 595000 - Mul inputs active, a[127:120]=fc, b[127:120]=09
+Time: 595000 - Mul outputs active, p[15:0]=ffea
+Time: 605000 - Input RAM address: 3
+Time: 605000 - Weight RAM address: 033
+Time: 605000 - Bias RAM address: 0c
+Time: 605000 - Mul inputs active, a[127:120]=fa, b[127:120]=bb
+Time: 605000 - Mul outputs active, p[15:0]=001a
+Time: 615000 - Input RAM address: 0
+Time: 615000 - Weight RAM address: 034
+Time: 615000 - Bias RAM address: 0d
+Time: 615000 - Mul inputs active, a[127:120]=fe, b[127:120]=b3
+Time: 615000 - Mul outputs active, p[15:0]=0150
+Time: 615000 - Writing output: addr=09, data=0000
+Time: 625000 - Input RAM address: 1
+Time: 625000 - Weight RAM address: 035
+Time: 625000 - Bias RAM address: 0d
+Time: 625000 - Mul inputs active, a[127:120]=fe, b[127:120]=cb
+Time: 625000 - Mul outputs active, p[15:0]=0072
+Time: 635000 - Input RAM address: 2
+Time: 635000 - Weight RAM address: 036
+Time: 635000 - Bias RAM address: 0d
+Time: 635000 - Mul inputs active, a[127:120]=fc, b[127:120]=00
+Time: 635000 - Mul outputs active, p[15:0]=0036
+Time: 645000 - Input RAM address: 3
+Time: 645000 - Weight RAM address: 037
+Time: 645000 - Bias RAM address: 0d
+Time: 645000 - Mul inputs active, a[127:120]=fa, b[127:120]=d3
+Time: 645000 - Mul outputs active, p[15:0]=0074
+Time: 655000 - Input RAM address: 0
+Time: 655000 - Weight RAM address: 038
+Time: 655000 - Bias RAM address: 0e
+Time: 655000 - Mul inputs active, a[127:120]=fe, b[127:120]=d6
+Time: 655000 - Mul outputs active, p[15:0]=0020
+Time: 655000 - Writing output: addr=0a, data=0000
+Time: 665000 - Input RAM address: 1
+Time: 665000 - Weight RAM address: 039
+Time: 665000 - Bias RAM address: 0e
+Time: 665000 - Mul inputs active, a[127:120]=fe, b[127:120]=e9
+Time: 665000 - Mul outputs active, p[15:0]=ffc4
+Time: 675000 - Input RAM address: 2
+Time: 675000 - Weight RAM address: 03a
+Time: 675000 - Bias RAM address: 0e
+Time: 675000 - Mul inputs active, a[127:120]=fc, b[127:120]=1d
+Time: 675000 - Mul outputs active, p[15:0]=0096
+Time: 685000 - Input RAM address: 3
+Time: 685000 - Weight RAM address: 03b
+Time: 685000 - Bias RAM address: 0e
+Time: 685000 - Mul inputs active, a[127:120]=fa, b[127:120]=d1
+Time: 685000 - Mul outputs active, p[15:0]=00c0
+Time: 695000 - Input RAM address: 0
+Time: 695000 - Weight RAM address: 03c
+Time: 695000 - Bias RAM address: 0f
+Time: 695000 - Mul inputs active, a[127:120]=fe, b[127:120]=a7
+Time: 695000 - Mul outputs active, p[15:0]=0098
+Time: 695000 - Writing output: addr=0b, data=0000
+Time: 705000 - Input RAM address: 1
+Time: 705000 - Weight RAM address: 03d
+Time: 705000 - Bias RAM address: 0f
+Time: 705000 - Mul inputs active, a[127:120]=fe, b[127:120]=9f
+Time: 705000 - Mul outputs active, p[15:0]=011d
+Time: 715000 - Input RAM address: 2
+Time: 715000 - Weight RAM address: 03e
+Time: 715000 - Bias RAM address: 0f
+Time: 715000 - Mul inputs active, a[127:120]=fc, b[127:120]=31
+Time: 715000 - Mul outputs active, p[15:0]=0062
+Time: 725000 - Input RAM address: 3
+Time: 725000 - Weight RAM address: 03f
+Time: 725000 - Bias RAM address: 0f
+Time: 725000 - Mul inputs active, a[127:120]=fa, b[127:120]=e5
+Time: 725000 - Mul outputs active, p[15:0]=ffc0
+Time: 735000 - Input RAM address: 0
+Time: 735000 - Weight RAM address: 040
+Time: 735000 - Bias RAM address: 10
+Time: 735000 - Mul inputs active, a[127:120]=fe, b[127:120]=d9
+Time: 735000 - Mul outputs active, p[15:0]=00c0
+Time: 735000 - Writing output: addr=0c, data=0000
+Time: 745000 - Input RAM address: 1
+Time: 745000 - Weight RAM address: 041
+Time: 745000 - Bias RAM address: 10
+Time: 745000 - Mul inputs active, a[127:120]=fe, b[127:120]=c6
+Time: 745000 - Mul outputs active, p[15:0]=00c3
+Time: 755000 - Input RAM address: 2
+Time: 755000 - Weight RAM address: 042
+Time: 755000 - Bias RAM address: 10
+Time: 755000 - Mul inputs active, a[127:120]=fc, b[127:120]=fa
+Time: 755000 - Mul outputs active, p[15:0]=ff42
+Time: 765000 - Input RAM address: 3
+Time: 765000 - Weight RAM address: 043
+Time: 765000 - Bias RAM address: 10
+Time: 765000 - Mul inputs active, a[127:120]=fa, b[127:120]=cc
+Time: 765000 - Mul outputs active, p[15:0]=ffd2
+Time: 775000 - Input RAM address: 0
+Time: 775000 - Weight RAM address: 044
+Time: 775000 - Bias RAM address: 11
+Time: 775000 - Mul inputs active, a[127:120]=fe, b[127:120]=40
+Time: 775000 - Mul outputs active, p[15:0]=00ec
+Time: 775000 - Writing output: addr=0d, data=032e
+Time: 785000 - Input RAM address: 1
+Time: 785000 - Weight RAM address: 045
+Time: 785000 - Bias RAM address: 11
+Time: 785000 - Mul inputs active, a[127:120]=fe, b[127:120]=48
+Time: 785000 - Mul outputs active, p[15:0]=00ba
+Time: 795000 - Input RAM address: 2
+Time: 795000 - Weight RAM address: 046
+Time: 795000 - Bias RAM address: 11
+Time: 795000 - Mul inputs active, a[127:120]=fc, b[127:120]=cb
+Time: 795000 - Mul outputs active, p[15:0]=006c
+Time: 805000 - Input RAM address: 3
+Time: 805000 - Weight RAM address: 047
+Time: 805000 - Bias RAM address: 11
+Time: 805000 - Mul inputs active, a[127:120]=fa, b[127:120]=03
+Time: 805000 - Mul outputs active, p[15:0]=0000
+Time: 815000 - Input RAM address: 0
+Time: 815000 - Weight RAM address: 048
+Time: 815000 - Bias RAM address: 12
+Time: 815000 - Mul inputs active, a[127:120]=fe, b[127:120]=33
+Time: 815000 - Mul outputs active, p[15:0]=00f8
+Time: 815000 - Writing output: addr=0e, data=0000
+Time: 825000 - Input RAM address: 1
+Time: 825000 - Weight RAM address: 049
+Time: 825000 - Bias RAM address: 12
+Time: 825000 - Mul inputs active, a[127:120]=fe, b[127:120]=d9
+Time: 825000 - Mul outputs active, p[15:0]=ffe8
+Time: 835000 - Input RAM address: 2
+Time: 835000 - Weight RAM address: 04a
+Time: 835000 - Bias RAM address: 12
+Time: 835000 - Mul inputs active, a[127:120]=fc, b[127:120]=bb
+Time: 835000 - Mul outputs active, p[15:0]=0028
+Time: 845000 - Input RAM address: 3
+Time: 845000 - Weight RAM address: 04b
+Time: 845000 - Bias RAM address: 12
+Time: 845000 - Mul inputs active, a[127:120]=fa, b[127:120]=be
+Time: 845000 - Mul outputs active, p[15:0]=008c
+Time: 855000 - Input RAM address: 0
+Time: 855000 - Weight RAM address: 04c
+Time: 855000 - Bias RAM address: 13
+Time: 855000 - Mul inputs active, a[127:120]=fe, b[127:120]=09
+Time: 855000 - Mul outputs active, p[15:0]=00d0
+Time: 855000 - Writing output: addr=0f, data=0000
+Time: 865000 - Input RAM address: 1
+Time: 865000 - Weight RAM address: 04d
+Time: 865000 - Bias RAM address: 13
+Time: 865000 - Mul inputs active, a[127:120]=fe, b[127:120]=ac
+Time: 865000 - Mul outputs active, p[15:0]=ff52
+Time: 875000 - Input RAM address: 2
+Time: 875000 - Weight RAM address: 04e
+Time: 875000 - Bias RAM address: 13
+Time: 875000 - Mul inputs active, a[127:120]=fc, b[127:120]=3c
+Time: 875000 - Mul outputs active, p[15:0]=ff4c
+Time: 885000 - Input RAM address: 3
+Time: 885000 - Weight RAM address: 04f
+Time: 885000 - Bias RAM address: 13
+Time: 885000 - Mul inputs active, a[127:120]=fa, b[127:120]=c7
+Time: 885000 - Mul outputs active, p[15:0]=0084
+Time: 895000 - Input RAM address: 0
+Time: 895000 - Weight RAM address: 050
+Time: 895000 - Bias RAM address: 14
+Time: 895000 - Mul inputs active, a[127:120]=fe, b[127:120]=35
+Time: 895000 - Mul outputs active, p[15:0]=ff34
+Time: 895000 - Writing output: addr=10, data=2067
+Time: 905000 - Input RAM address: 1
+Time: 905000 - Weight RAM address: 051
+Time: 905000 - Bias RAM address: 14
+Time: 905000 - Mul inputs active, a[127:120]=fe, b[127:120]=ae
+Time: 905000 - Mul outputs active, p[15:0]=ff49
+Time: 915000 - Input RAM address: 2
+Time: 915000 - Weight RAM address: 052
+Time: 915000 - Bias RAM address: 14
+Time: 915000 - Mul inputs active, a[127:120]=fc, b[127:120]=1c
+Time: 915000 - Mul outputs active, p[15:0]=ff86
+Time: 925000 - Input RAM address: 3
+Time: 925000 - Weight RAM address: 053
+Time: 925000 - Bias RAM address: 14
+Time: 925000 - Mul inputs active, a[127:120]=fa, b[127:120]=25
+Time: 925000 - Mul outputs active, p[15:0]=ffe2
+Time: 935000 - Input RAM address: 0
+Time: 935000 - Weight RAM address: 054
+Time: 935000 - Bias RAM address: 15
+Time: 935000 - Mul inputs active, a[127:120]=fe, b[127:120]=d4
+Time: 935000 - Mul outputs active, p[15:0]=0114
+Time: 935000 - Writing output: addr=11, data=0000
+Time: 945000 - Input RAM address: 1
+Time: 945000 - Weight RAM address: 055
+Time: 945000 - Bias RAM address: 15
+Time: 945000 - Mul inputs active, a[127:120]=fe, b[127:120]=94
+Time: 945000 - Mul outputs active, p[15:0]=006c
+Time: 955000 - Input RAM address: 2
+Time: 955000 - Weight RAM address: 056
+Time: 955000 - Bias RAM address: 15
+Time: 955000 - Mul inputs active, a[127:120]=fc, b[127:120]=d1
+Time: 955000 - Mul outputs active, p[15:0]=003e
+Time: 965000 - Input RAM address: 3
+Time: 965000 - Weight RAM address: 057
+Time: 965000 - Bias RAM address: 15
+Time: 965000 - Mul inputs active, a[127:120]=fa, b[127:120]=2d
+Time: 965000 - Mul outputs active, p[15:0]=001a
+Time: 975000 - Input RAM address: 0
+Time: 975000 - Weight RAM address: 058
+Time: 975000 - Bias RAM address: 16
+Time: 975000 - Mul inputs active, a[127:120]=fe, b[127:120]=ff
+Time: 975000 - Mul outputs active, p[15:0]=0158
+Time: 975000 - Writing output: addr=12, data=0000
+Time: 985000 - Input RAM address: 1
+Time: 985000 - Weight RAM address: 059
+Time: 985000 - Bias RAM address: 16
+Time: 985000 - Mul inputs active, a[127:120]=fe, b[127:120]=4a
+Time: 985000 - Mul outputs active, p[15:0]=fece
+Time: 995000 - Input RAM address: 2
+Time: 995000 - Weight RAM address: 05a
+Time: 995000 - Bias RAM address: 16
+Time: 995000 - Mul inputs active, a[127:120]=fc, b[127:120]=01
+Time: 995000 - Mul outputs active, p[15:0]=0090
+Time: 1000000 - Simulation running...

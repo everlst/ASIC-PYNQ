@@ -1,0 +1,831 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Nov  3 17:10:39 2025
+# Process ID: 17380
+# Current directory: Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10708 Y:\Code\github\ASIC-PYNQ\LAB6_8bit\prj\LAB5_2019\LAB5_2019.xpr
+# Log file: Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/vivado.log
+# Journal file: Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 940.520 ; gain = 180.371
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_fc_top_ip' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_ram_fc2.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc2.0.bias.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc3.bias.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_weight_fc3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/input_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/sel_data_processed.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_fc2.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc2.0.weight32.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_fc3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc3.weight4.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc1.0.weight_128.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_fc_top_ip_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_weight_fc3/sim/bias_weight_fc3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_weight_fc3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc3/sim/weight_ram_fc3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_fc3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_fc2/sim/bias_ram_fc2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_ram_fc2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc2/sim/weight_ram_fc2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_fc2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_2
+INFO: [VRFC 10-2458] undeclared symbol done_r, assumed default net type wire [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_2.v:172]
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/mult_array24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_array24
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_array
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_array32
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_top_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/sim/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fc_top_ip
+"xvhdl --incr --relax -prj tb_fc_top_ip_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+"xelab -wto 4831a75c35e4493da112fbebf8a977d4 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fc_top_ip_behav xil_defaultlib.tb_fc_top_ip xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 4831a75c35e4493da112fbebf8a977d4 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fc_top_ip_behav xil_defaultlib.tb_fc_top_ip xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 9 for port 'addra' [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:54]
+WARNING: [VRFC 10-3091] actual bit length 17 differs from formal bit length 18 for port 'fc_output_data_o' [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:94]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:47]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:52]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:57]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:124]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:129]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:190]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:195]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_16.dsp_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.input_ram_rd3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_rd3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_ram_rd3
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=8,bi_width=8...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture mult_8_arch of entity xil_defaultlib.mult_8 [mult_8_default]
+Compiling module xil_defaultlib.multiplier_array_default
+Compiling module xil_defaultlib.adder_tree_default
+Compiling module xil_defaultlib.fc_1
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_fc2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_ram_fc2
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=17,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture mult_16_arch of entity xil_defaultlib.mult_16 [mult_16_default]
+Compiling module xil_defaultlib.multi_array24_default
+Compiling module xil_defaultlib.adder_tree2_default
+Compiling module xil_defaultlib.fc_2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_fc3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_weight_fc3
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,carryinreg...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=26,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture multi_24_arch of entity xil_defaultlib.multi_24 [multi_24_default]
+Compiling module xil_defaultlib.multi_array32_default
+Compiling module xil_defaultlib.adder_tree3(DATA_WIDTH=34)
+Compiling module xil_defaultlib.fc_3
+Compiling module xil_defaultlib.fc_top_ip
+Compiling module xil_defaultlib.tb_fc_top_ip
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fc_top_ip_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:28 . Memory (MB): peak = 963.633 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '28' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_fc_top_ip_behav -key {Behavioral:sim_1:Functional:tb_fc_top_ip} -tclbatch {tb_fc_top_ip.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source tb_fc_top_ip.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_input_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram_fc2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram_fc2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram_fc3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram_fc3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Successfully loaded 42 labels from file.
+=== FC Top IP Testbench Start ===
+Time: 0
+Time: 20000 - Reset released
+Time: 70000 - Starting FC computation
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1017.195 ; gain = 53.562
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_fc_top_ip_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:42 . Memory (MB): peak = 1017.195 ; gain = 53.562
+run all
+sample  0: output=(-20.00, -90.00), predict=0, lable=0
+sample  1: output=(71.00, 102.00), predict=1, lable=0
+sample  2: output=(35.00, 43.00), predict=1, lable=0
+sample  3: output=(90.00, -109.00), predict=0, lable=0
+sample  4: output=(-84.00, -123.00), predict=0, lable=0
+sample  5: output=(-2.00, -22.00), predict=0, lable=0
+sample  6: output=(82.00, -122.00), predict=0, lable=0
+sample  7: output=(-38.00, -76.00), predict=0, lable=0
+sample  8: output=(-45.00, 93.00), predict=1, lable=0
+sample  9: output=(-127.00, -78.00), predict=1, lable=0
+sample 10: output=(-100.00, 76.00), predict=1, lable=0
+sample 11: output=(98.00, -50.00), predict=0, lable=0
+sample 12: output=(93.00, 108.00), predict=1, lable=0
+sample 13: output=(98.00, 75.00), predict=0, lable=0
+sample 14: output=(124.00, -34.00), predict=0, lable=0
+sample 15: output=(66.00, -69.00), predict=0, lable=0
+sample 16: output=(-2.00, -4.00), predict=0, lable=0
+sample 17: output=(92.00, 127.00), predict=1, lable=0
+sample 18: output=(-116.00, 124.00), predict=1, lable=0
+sample 19: output=(113.00, 84.00), predict=0, lable=0
+sample 20: output=(126.00, 75.00), predict=0, lable=0
+sample 21: output=(83.00, -48.00), predict=0, lable=1
+sample 22: output=(-105.00, 75.00), predict=1, lable=1
+sample 23: output=(-102.00, 9.00), predict=1, lable=1
+sample 24: output=(-32.00, 1.00), predict=1, lable=1
+sample 25: output=(110.00, -117.00), predict=0, lable=1
+sample 26: output=(-53.00, 56.00), predict=1, lable=1
+sample 27: output=(-100.00, 91.00), predict=1, lable=1
+sample 28: output=(122.00, 89.00), predict=0, lable=1
+sample 29: output=(119.00, -3.00), predict=0, lable=1
+sample 30: output=(-16.00, 46.00), predict=1, lable=1
+sample 31: output=(-102.00, 101.00), predict=1, lable=1
+sample 32: output=(13.00, -85.00), predict=0, lable=1
+sample 33: output=(-33.00, -86.00), predict=0, lable=1
+sample 34: output=(7.00, -47.00), predict=0, lable=1
+sample 35: output=(-45.00, 11.00), predict=1, lable=1
+sample 36: output=(-48.00, 5.00), predict=1, lable=1
+sample 37: output=(-110.00, -109.00), predict=1, lable=1
+sample 38: output=(-106.00, -16.00), predict=1, lable=1
+sample 39: output=(85.00, -31.00), predict=0, lable=1
+sample 40: output=(-7.00, 114.00), predict=1, lable=1
+sample 41: output=(-108.00, -44.00), predict=1, lable=1
+Time: 249125000 - Captured 42 samples. Calculating accuracy...
+
+currenty: 26/42 = 59.52%
+fc_out 最大绝对值: 37683, 所需位宽: 17  (加上符号位)
+$finish called at time : 249135 ns : File "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/sim/test_bench.v" Line 210
+run: Time (s): cpu = 00:00:10 ; elapsed = 00:01:09 . Memory (MB): peak = 1023.676 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_fc_top_ip' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_ram_fc2.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc2.0.bias.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc3.bias.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_weight_fc3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/input_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/sel_data_processed.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_fc2.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc2.0.weight32.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_fc3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc3.weight4.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc1.0.weight_128.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_fc_top_ip_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_weight_fc3/sim/bias_weight_fc3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_weight_fc3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc3/sim/weight_ram_fc3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_fc3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_fc2/sim/bias_ram_fc2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_ram_fc2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc2/sim/weight_ram_fc2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_fc2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_2
+INFO: [VRFC 10-2458] undeclared symbol done_r, assumed default net type wire [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_2.v:172]
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/mult_array24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_array24
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_array
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_array32
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_top_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/sim/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fc_top_ip
+"xvhdl --incr --relax -prj tb_fc_top_ip_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1023.676 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+"xelab -wto 4831a75c35e4493da112fbebf8a977d4 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fc_top_ip_behav xil_defaultlib.tb_fc_top_ip xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 4831a75c35e4493da112fbebf8a977d4 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fc_top_ip_behav xil_defaultlib.tb_fc_top_ip xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 9 for port 'addra' [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:54]
+WARNING: [VRFC 10-3091] actual bit length 17 differs from formal bit length 18 for port 'fc_output_data_o' [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:94]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:47]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:52]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:57]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:124]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:129]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:190]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:195]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_16.dsp_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.input_ram_rd3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_rd3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_ram_rd3
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=8,bi_width=8...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture mult_8_arch of entity xil_defaultlib.mult_8 [mult_8_default]
+Compiling module xil_defaultlib.multiplier_array_default
+Compiling module xil_defaultlib.adder_tree_default
+Compiling module xil_defaultlib.fc_1
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_fc2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_ram_fc2
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=17,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture mult_16_arch of entity xil_defaultlib.mult_16 [mult_16_default]
+Compiling module xil_defaultlib.multi_array24_default
+Compiling module xil_defaultlib.adder_tree2_default
+Compiling module xil_defaultlib.fc_2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_fc3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_weight_fc3
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,carryinreg...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=26,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture multi_24_arch of entity xil_defaultlib.multi_24 [multi_24_default]
+Compiling module xil_defaultlib.multi_array32_default
+Compiling module xil_defaultlib.adder_tree3(DATA_WIDTH=34)
+Compiling module xil_defaultlib.fc_3
+Compiling module xil_defaultlib.fc_top_ip
+Compiling module xil_defaultlib.tb_fc_top_ip
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fc_top_ip_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:28 . Memory (MB): peak = 1023.676 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '28' seconds
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:29 . Memory (MB): peak = 1023.676 ; gain = 0.000
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_input_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram_fc2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram_fc2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram_fc3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram_fc3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Successfully loaded 42 labels from file.
+=== FC Top IP Testbench Start ===
+Time: 0
+Time: 20000 - Reset released
+Time: 70000 - Starting FC computation
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:41 . Memory (MB): peak = 1023.676 ; gain = 0.000
+run all
+sample  0: output=(5006.00, -5588.00), predict=0, lable=0
+sample  1: output=(5183.00, -5946.00), predict=0, lable=0
+sample  2: output=(5560.00, -6096.00), predict=0, lable=0
+sample  3: output=(4935.00, -5574.00), predict=0, lable=0
+sample  4: output=(5533.00, -5808.00), predict=0, lable=0
+sample  5: output=(5284.00, -5651.00), predict=0, lable=0
+sample  6: output=(4409.00, -5083.00), predict=0, lable=0
+sample  7: output=(4660.00, -4974.00), predict=0, lable=0
+sample  8: output=(4529.00, -5443.00), predict=0, lable=0
+sample  9: output=(4879.00, -5357.00), predict=0, lable=0
+sample 10: output=(5628.00, -6129.00), predict=0, lable=0
+sample 11: output=(4475.00, -4834.00), predict=0, lable=0
+sample 12: output=(5481.00, -5857.00), predict=0, lable=0
+sample 13: output=(6033.00, -6391.00), predict=0, lable=0
+sample 14: output=(6365.00, -6673.00), predict=0, lable=0
+sample 15: output=(5493.00, -6138.00), predict=0, lable=0
+sample 16: output=(6025.00, -6546.00), predict=0, lable=0
+sample 17: output=(5596.00, -6303.00), predict=0, lable=0
+sample 18: output=(5205.00, -5844.00), predict=0, lable=0
+sample 19: output=(5404.00, -6118.00), predict=0, lable=0
+sample 20: output=(6234.00, -6883.00), predict=0, lable=0
+sample 21: output=(2387.00, -4185.00), predict=0, lable=1
+sample 22: output=(-38892.00, 27913.00), predict=1, lable=1
+sample 23: output=(1710.00, -3935.00), predict=0, lable=1
+sample 24: output=(-57459.00, 29428.00), predict=1, lable=1
+sample 25: output=(1021.00, -1888.00), predict=0, lable=1
+sample 26: output=(-50415.00, 39594.00), predict=1, lable=1
+sample 27: output=(-36979.00, 17563.00), predict=1, lable=1
+sample 28: output=(-27897.00, 17851.00), predict=1, lable=1
+sample 29: output=(-59199.00, 33573.00), predict=1, lable=1
+sample 30: output=(-30161.00, 20496.00), predict=1, lable=1
+sample 31: output=(-64873.00, 36494.00), predict=1, lable=1
+sample 32: output=(-24459.00, 13094.00), predict=1, lable=1
+sample 33: output=(-55550.00, 29854.00), predict=1, lable=1
+sample 34: output=(-6551.00, 4580.00), predict=1, lable=1
+sample 35: output=(-40222.00, 20538.00), predict=1, lable=1
+sample 36: output=(-40532.00, 23902.00), predict=1, lable=1
+sample 37: output=(-41426.00, 34346.00), predict=1, lable=1
+sample 38: output=(-60951.00, 37267.00), predict=1, lable=1
+sample 39: output=(-42598.00, 29597.00), predict=1, lable=1
+sample 40: output=(1589.00, -2364.00), predict=0, lable=1
+sample 41: output=(2431.00, -4627.00), predict=0, lable=1
+Time: 249125000 - Captured 42 samples. Calculating accuracy...
+
+currenty: 37/42 = 88.10%
+fc_out 最大绝对值: 64873, 所需位宽: 17  (加上符号位)
+$finish called at time : 249135 ns : File "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/sim/test_bench.v" Line 210
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:01:04 . Memory (MB): peak = 1025.680 ; gain = 2.004
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_fc_top_ip' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_ram_fc2.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc2.0.bias.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc3.bias.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/bias_weight_fc3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/input_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/sel_data_processed.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_fc2.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc2.0.weight32.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_fc3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc3.weight4.coe'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/weight_ram_rd3.mif'
+INFO: [SIM-utils-43] Exported 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/fc1.0.weight_128.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_fc_top_ip_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_weight_fc3/sim/bias_weight_fc3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_weight_fc3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc3/sim/weight_ram_fc3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_fc3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_fc2/sim/bias_ram_fc2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_ram_fc2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc2/sim/weight_ram_fc2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_fc2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bias_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_ram_rd3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree2
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tree3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_2
+INFO: [VRFC 10-2458] undeclared symbol done_r, assumed default net type wire [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_2.v:172]
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/mult_array24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_array24
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_array
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_array32
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_top_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/sim/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fc_top_ip
+"xvhdl --incr --relax -prj tb_fc_top_ip_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim'
+"xelab -wto 4831a75c35e4493da112fbebf8a977d4 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fc_top_ip_behav xil_defaultlib.tb_fc_top_ip xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 4831a75c35e4493da112fbebf8a977d4 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fc_top_ip_behav xil_defaultlib.tb_fc_top_ip xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 9 for port 'addra' [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:54]
+WARNING: [VRFC 10-3091] actual bit length 17 differs from formal bit length 18 for port 'fc_output_data_o' [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:94]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:47]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:52]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:57]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:124]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:129]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:190]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:195]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_16.dsp_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.input_ram_rd3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_rd3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_ram_rd3
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=8,bi_width=8...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture mult_8_arch of entity xil_defaultlib.mult_8 [mult_8_default]
+Compiling module xil_defaultlib.multiplier_array_default
+Compiling module xil_defaultlib.adder_tree_default
+Compiling module xil_defaultlib.fc_1
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_fc2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_ram_fc2
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=17,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture mult_16_arch of entity xil_defaultlib.mult_16 [mult_16_default]
+Compiling module xil_defaultlib.multi_array24_default
+Compiling module xil_defaultlib.adder_tree2_default
+Compiling module xil_defaultlib.fc_2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.weight_ram_fc3
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bias_weight_fc3
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,carryinreg...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=26,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture multi_24_arch of entity xil_defaultlib.multi_24 [multi_24_default]
+Compiling module xil_defaultlib.multi_array32_default
+Compiling module xil_defaultlib.adder_tree3(DATA_WIDTH=34)
+Compiling module xil_defaultlib.fc_3
+Compiling module xil_defaultlib.fc_top_ip
+Compiling module xil_defaultlib.tb_fc_top_ip
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fc_top_ip_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:28 . Memory (MB): peak = 1033.855 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '28' seconds
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:29 . Memory (MB): peak = 1033.855 ; gain = 0.000
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_input_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram_fc2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram_fc2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_weight_ram_fc3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_top_ip.u_fc_top_ip.u_bias_ram_fc3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Successfully loaded 42 labels from file.
+=== FC Top IP Testbench Start ===
+Time: 0
+Time: 20000 - Reset released
+Time: 70000 - Starting FC computation
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:39 . Memory (MB): peak = 1033.855 ; gain = 0.000
+run all
+sample  0: output=(9.00, -11.00), predict=0, lable=0
+sample  1: output=(10.00, -12.00), predict=0, lable=0
+sample  2: output=(10.00, -12.00), predict=0, lable=0
+sample  3: output=(9.00, -11.00), predict=0, lable=0
+sample  4: output=(10.00, -12.00), predict=0, lable=0
+sample  5: output=(10.00, -12.00), predict=0, lable=0
+sample  6: output=(8.00, -10.00), predict=0, lable=0
+sample  7: output=(9.00, -10.00), predict=0, lable=0
+sample  8: output=(8.00, -11.00), predict=0, lable=0
+sample  9: output=(9.00, -11.00), predict=0, lable=0
+sample 10: output=(10.00, -12.00), predict=0, lable=0
+sample 11: output=(8.00, -10.00), predict=0, lable=0
+sample 12: output=(10.00, -12.00), predict=0, lable=0
+sample 13: output=(11.00, -13.00), predict=0, lable=0
+sample 14: output=(12.00, -14.00), predict=0, lable=0
+sample 15: output=(10.00, -12.00), predict=0, lable=0
+sample 16: output=(11.00, -13.00), predict=0, lable=0
+sample 17: output=(10.00, -13.00), predict=0, lable=0
+sample 18: output=(10.00, -12.00), predict=0, lable=0
+sample 19: output=(10.00, -12.00), predict=0, lable=0
+sample 20: output=(12.00, -14.00), predict=0, lable=0
+sample 21: output=(4.00, -9.00), predict=0, lable=1
+sample 22: output=(-76.00, 54.00), predict=1, lable=1
+sample 23: output=(3.00, -8.00), predict=0, lable=1
+sample 24: output=(-113.00, 57.00), predict=1, lable=1
+sample 25: output=(1.00, -4.00), predict=0, lable=1
+sample 26: output=(-99.00, 77.00), predict=1, lable=1
+sample 27: output=(-73.00, 34.00), predict=1, lable=1
+sample 28: output=(-55.00, 34.00), predict=1, lable=1
+sample 29: output=(-116.00, 65.00), predict=1, lable=1
+sample 30: output=(-59.00, 40.00), predict=1, lable=1
+sample 31: output=(-127.00, 71.00), predict=1, lable=1
+sample 32: output=(-48.00, 25.00), predict=1, lable=1
+sample 33: output=(-109.00, 58.00), predict=1, lable=1
+sample 34: output=(-13.00, 8.00), predict=1, lable=1
+sample 35: output=(-79.00, 40.00), predict=1, lable=1
+sample 36: output=(-80.00, 46.00), predict=1, lable=1
+sample 37: output=(-81.00, 67.00), predict=1, lable=1
+sample 38: output=(-120.00, 72.00), predict=1, lable=1
+sample 39: output=(-84.00, 57.00), predict=1, lable=1
+sample 40: output=(3.00, -5.00), predict=0, lable=1
+sample 41: output=(4.00, -10.00), predict=0, lable=1
+Time: 249125000 - Captured 42 samples. Calculating accuracy...
+
+currenty: 37/42 = 88.10%
+fc_out 最大绝对值: 127, 所需位宽: 8  (加上符号位)
+$finish called at time : 249135 ns : File "Y:/Code/github/ASIC-PYNQ/LAB6_8bit/sim/test_bench.v" Line 210
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:01:08 . Memory (MB): peak = 1033.855 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  4 00:27:37 2025...

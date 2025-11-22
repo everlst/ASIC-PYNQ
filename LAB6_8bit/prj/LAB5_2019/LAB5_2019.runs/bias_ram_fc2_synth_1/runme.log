@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log bias_ram_fc2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bias_ram_fc2.tcl
+

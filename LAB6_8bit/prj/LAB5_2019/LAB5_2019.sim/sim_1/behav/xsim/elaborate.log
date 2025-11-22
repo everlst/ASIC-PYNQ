@@ -1,0 +1,17 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 4831a75c35e4493da112fbebf8a977d4 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fc_top_ip_behav xil_defaultlib.tb_fc_top_ip xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 9 for port 'addra' [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:54]
+WARNING: [VRFC 10-3091] actual bit length 17 differs from formal bit length 18 for port 'fc_output_data_o' [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:94]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:47]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:52]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:57]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:124]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:129]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:190]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v:195]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

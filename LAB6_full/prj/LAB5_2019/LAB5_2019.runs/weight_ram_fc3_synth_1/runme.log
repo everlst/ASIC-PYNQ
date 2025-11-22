@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log weight_ram_fc3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source weight_ram_fc3.tcl
+

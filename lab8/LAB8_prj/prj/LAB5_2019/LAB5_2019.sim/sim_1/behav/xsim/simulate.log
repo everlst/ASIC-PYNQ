@@ -1,0 +1,372 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_system.u_system.u_fc_top.u_weight_ram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_system.u_system.u_fc_top.u_bias_ram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_system.u_system.u_fc_top.u_weight_ram_fc2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_system.u_system.u_fc_top.u_bias_ram_fc2.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_system.u_system.u_fc_top.u_weight_ram_fc3.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_system.u_system.u_fc_top.u_bias_ram_fc3.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_fc_system.u_input_ram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+=== 开始测试序列 ===
+阶段1: 加载输入数据到FIFO
+时间 150000: FIFO写入数据: fefdfcfffffcfdfffcfdfcfcfdfcfcfefdfcfdfcfdfefbfdfdfcfefdfcfffefdfefefefdfcfefdfcfefefdfefefcfcfcfcfdfcfcfcfcfbfcfcfbfcfcfdfdfcfefdfcfefefdfdfefefdfdfdfcfbfcfcfcfefcfcfdfefcfbfbfbfbfafbfbfefdfcfffffefffefefffefefffdfefefcfdfdfafcfcfbfdfcfdfffdfcfefdfdfdfcfe
+时间 160000: 加载RAM地址 0 数据到FIFO
+时间 190000: FIFO写入数据: fcfbfefefcfefdfdfefcfdfdfdfcfbfcfdfbfbfcfbfbfcfcfcfefefdfffdfcfefcfcfdfcfdfefcfdfefcfefffefefefdfdfdfcfcfcfcfcfdfdfdfdfefcfdfcfbfcfcfdfdfdfefefcfefdfbfdfdfcfefcfcfefdfcfdfcfdfdfafefdfbfdfdfcfdfcfbfcfbfbfdfdfefffffffffefffffdfefdfbfdfdfbfbfdfdfcfbfcfdfbfcfe
+时间 200000: 加载RAM地址 1 数据到FIFO
+时间 230000: FIFO写入数据: fdfefefdfffdfbfdfdfcfefefcfdfdfefdfdfdfdfbfbfbfafbfcfdfcfcfdfcfbfcfcfdfefcfdfdfdfefdfdfffefefefefefdfcfffffcfefdfbfdfcfafcfbfafcfafcfdfcfdfffdfffffdfefffffffefcfefdfbfcfbfcfbfbfcfafafefdfcfefefdfcfcfdfdfdfdfdfcfdfdfcfdfcfcfdfefcfdfffcfefdfcfdfdfbfcfbfbfdfc
+时间 240000: 加载RAM地址 2 数据到FIFO
+时间 270000: FIFO写入数据: fdfefcfefefcfcfefefefdfcfefefdfdfefefcfdfcfbfcfdfdfdfcfefdfbfdfdfbfdfdfcfdfdfbfefdfcfefcfdfdfcfdfefcfffefbfefefcfdfdfcfdfdfdfefbfcfcfbfdfdfcfefdfcfdfcfbfefefdfdfffdfdfdfdfcfcfdfdfbfcfdfcfefdfcfdfefcfefdfefefefdfcfbfcfbfafcfbfcfefdfefefefffdfdfffdfdfcfbfcfd
+时间 280000: 加载RAM地址 3 数据到FIFO
+阶段2: 发送开始指令
+时间 350000: 发送开始指令
+阶段3: 发送推理指令
+时间 405000: FIFO读取数据
+时间 420000: 发送推理指令
+时间 645000: FC1输出有效 - 数据: 04
+时间 685000: FC1输出有效 - 数据: 01
+时间 725000: FC1输出有效 - 数据: 00
+时间 765000: FC1输出有效 - 数据: 00
+时间 805000: FC1输出有效 - 数据: 00
+时间 845000: FC1输出有效 - 数据: 00
+时间 885000: FC1输出有效 - 数据: 00
+时间 925000: FC1输出有效 - 数据: 00
+时间 965000: FC1输出有效 - 数据: 00
+时间 1005000: FC1输出有效 - 数据: 00
+时间 1045000: FC1输出有效 - 数据: 00
+时间 1085000: FC1输出有效 - 数据: 00
+时间 1125000: FC1输出有效 - 数据: 00
+时间 1165000: FC1输出有效 - 数据: 00
+时间 1205000: FC1输出有效 - 数据: 00
+时间 1245000: FC1输出有效 - 数据: 00
+时间 1285000: FC1输出有效 - 数据: 08
+时间 1325000: FC1输出有效 - 数据: 00
+时间 1365000: FC1输出有效 - 数据: 00
+时间 1405000: FC1输出有效 - 数据: 00
+时间 1445000: FC1输出有效 - 数据: 00
+时间 1485000: FC1输出有效 - 数据: 00
+时间 1525000: FC1输出有效 - 数据: 01
+时间 1565000: FC1输出有效 - 数据: 00
+时间 1605000: FC1输出有效 - 数据: 00
+时间 1645000: FC1输出有效 - 数据: 00
+时间 1685000: FC1输出有效 - 数据: 00
+时间 1725000: FC1输出有效 - 数据: 02
+时间 1765000: FC1输出有效 - 数据: 00
+时间 1805000: FC1输出有效 - 数据: 00
+时间 1845000: FC1输出有效 - 数据: 00
+时间 1885000: FC1输出有效 - 数据: 08
+时间 1925000: FC1输出有效 - 数据: 03
+时间 1965000: FC1输出有效 - 数据: 00
+时间 2005000: FC1输出有效 - 数据: 00
+时间 2045000: FC1输出有效 - 数据: 00
+时间 2085000: FC1输出有效 - 数据: 00
+时间 2125000: FC1输出有效 - 数据: 00
+时间 2165000: FC1输出有效 - 数据: 00
+时间 2205000: FC1输出有效 - 数据: 00
+时间 2245000: FC1输出有效 - 数据: 00
+时间 2285000: FC1输出有效 - 数据: 04
+时间 2325000: FC1输出有效 - 数据: 01
+时间 2365000: FC1输出有效 - 数据: 00
+时间 2405000: FC1输出有效 - 数据: 00
+时间 2445000: FC1输出有效 - 数据: 03
+时间 2485000: FC1输出有效 - 数据: 00
+时间 2525000: FC1输出有效 - 数据: 00
+时间 2565000: FC1输出有效 - 数据: 00
+时间 2605000: FC1输出有效 - 数据: 00
+时间 2645000: FC1输出有效 - 数据: 00
+时间 2685000: FC1输出有效 - 数据: 00
+时间 2725000: FC1输出有效 - 数据: 00
+时间 2765000: FC1输出有效 - 数据: 01
+时间 2805000: FC1输出有效 - 数据: 00
+时间 2845000: FC1输出有效 - 数据: 00
+时间 2885000: FC1输出有效 - 数据: 00
+时间 2925000: FC1输出有效 - 数据: 00
+时间 2965000: FC1输出有效 - 数据: 00
+时间 3005000: FC1输出有效 - 数据: 00
+时间 3045000: FC1输出有效 - 数据: 00
+时间 3085000: FC1输出有效 - 数据: 00
+时间 3125000: FC1输出有效 - 数据: 00
+时间 3165000: FC1输出有效 - 数据: 09
+时间 3205000: FC1输出有效 - 数据: 00
+时间 3245000: FC1输出有效 - 数据: 00
+时间 3285000: FC1输出有效 - 数据: 00
+时间 3325000: FC1输出有效 - 数据: 06
+时间 3365000: FC1输出有效 - 数据: 06
+时间 3405000: FC1输出有效 - 数据: 03
+时间 3445000: FC1输出有效 - 数据: 00
+时间 3485000: FC1输出有效 - 数据: 00
+时间 3525000: FC1输出有效 - 数据: 00
+时间 3565000: FC1输出有效 - 数据: 00
+时间 3605000: FC1输出有效 - 数据: 00
+时间 3645000: FC1输出有效 - 数据: 00
+时间 3685000: FC1输出有效 - 数据: 00
+时间 3725000: FC1输出有效 - 数据: 00
+时间 3765000: FC1输出有效 - 数据: 00
+时间 3805000: FC1输出有效 - 数据: 00
+时间 3845000: FC1输出有效 - 数据: 00
+时间 3885000: FC1输出有效 - 数据: 00
+时间 3925000: FC1输出有效 - 数据: 00
+时间 3965000: FC1输出有效 - 数据: 00
+时间 4005000: FC1输出有效 - 数据: 00
+时间 4045000: FC1输出有效 - 数据: 00
+时间 4085000: FC1输出有效 - 数据: 00
+时间 4125000: FC1输出有效 - 数据: 03
+时间 4165000: FC1输出有效 - 数据: 00
+时间 4205000: FC1输出有效 - 数据: 00
+时间 4245000: FC1输出有效 - 数据: 06
+时间 4285000: FC1输出有效 - 数据: 00
+时间 4325000: FC1输出有效 - 数据: 00
+时间 4365000: FC1输出有效 - 数据: 00
+时间 4405000: FC1输出有效 - 数据: 00
+时间 4445000: FC1输出有效 - 数据: 00
+时间 4485000: FC1输出有效 - 数据: 03
+时间 4525000: FC1输出有效 - 数据: 05
+时间 4565000: FC1输出有效 - 数据: 00
+时间 4605000: FC1输出有效 - 数据: 02
+时间 4645000: FC1输出有效 - 数据: 00
+时间 4685000: FC1输出有效 - 数据: 00
+时间 4725000: FC1输出有效 - 数据: 00
+时间 4765000: FC1输出有效 - 数据: 00
+时间 4805000: FC1输出有效 - 数据: 00
+时间 4845000: FC1输出有效 - 数据: 00
+时间 4885000: FC1输出有效 - 数据: 02
+时间 4925000: FC1输出有效 - 数据: 00
+时间 4965000: FC1输出有效 - 数据: 00
+时间 5005000: FC1输出有效 - 数据: 03
+时间 5045000: FC1输出有效 - 数据: 00
+时间 5085000: FC1输出有效 - 数据: 00
+时间 5125000: FC1输出有效 - 数据: 0d
+时间 5165000: FC1输出有效 - 数据: 00
+时间 5205000: FC1输出有效 - 数据: 00
+时间 5245000: FC1输出有效 - 数据: 00
+时间 5285000: FC1输出有效 - 数据: 00
+时间 5325000: FC1输出有效 - 数据: 00
+时间 5365000: FC1输出有效 - 数据: 00
+时间 5405000: FC1输出有效 - 数据: 00
+时间 5445000: FC1输出有效 - 数据: 00
+时间 5485000: FC1输出有效 - 数据: 00
+时间 5525000: FC1输出有效 - 数据: 00
+时间 5565000: FC1输出有效 - 数据: 00
+时间 5605000: FC1输出有效 - 数据: 00
+时间 5645000: FC1输出有效 - 数据: 00
+时间 5685000: FC1输出有效 - 数据: 00
+时间 5725000: FC1输出有效 - 数据: 00
+时间 5905000: FC2输出有效 - 数据: 07
+时间 5915000: FC2输出有效 - 数据: 00
+时间 5925000: FC2输出有效 - 数据: 06
+时间 5935000: FC2输出有效 - 数据: 00
+时间 5945000: FC2输出有效 - 数据: 00
+时间 5955000: FC2输出有效 - 数据: 04
+时间 5965000: FC2输出有效 - 数据: 0a
+时间 5975000: FC2输出有效 - 数据: 00
+时间 5985000: FC2输出有效 - 数据: 00
+时间 5995000: FC2输出有效 - 数据: 00
+时间 6005000: FC2输出有效 - 数据: 06
+时间 6015000: FC2输出有效 - 数据: 0c
+时间 6025000: FC2输出有效 - 数据: 00
+时间 6035000: FC2输出有效 - 数据: 00
+时间 6045000: FC2输出有效 - 数据: 00
+时间 6055000: FC2输出有效 - 数据: 01
+时间 6065000: FC2输出有效 - 数据: 00
+时间 6075000: FC2输出有效 - 数据: 01
+时间 6085000: FC2输出有效 - 数据: 03
+时间 6095000: FC2输出有效 - 数据: 00
+时间 6105000: FC2输出有效 - 数据: 00
+时间 6115000: FC2输出有效 - 数据: 00
+时间 6125000: FC2输出有效 - 数据: 03
+时间 6135000: FC2输出有效 - 数据: 00
+时间 6145000: FC2输出有效 - 数据: 00
+时间 6155000: FC2输出有效 - 数据: 0e
+时间 6165000: FC2输出有效 - 数据: 00
+时间 6175000: FC2输出有效 - 数据: 09
+时间 6185000: FC2输出有效 - 数据: 0a
+时间 6195000: FC2输出有效 - 数据: 0a
+时间 6205000: FC2输出有效 - 数据: 00
+时间 6215000: FC2输出有效 - 数据: 00
+时间 6375000: FC3输出有效 - 数据: 09
+时间 6385000: FC3输出有效 - 数据: f5
+时间 6495000: 推理完成
+阶段4: 发送输出指令
+时间 6605000: 发送输出指令
+时间 6605000: 开始捕获输出数据
+FC1输出[0]: 04
+FC1输出[1]: 01
+FC1输出[2]: 00
+FC1输出[3]: 00
+FC1输出[4]: 00
+FC1输出[5]: 00
+FC1输出[6]: 00
+FC1输出[7]: 00
+FC1输出[8]: 00
+FC1输出[9]: 00
+FC1输出[10]: 00
+FC1输出[11]: 00
+FC1输出[12]: 00
+FC1输出[13]: 00
+FC1输出[14]: 00
+FC1输出[15]: 00
+FC1输出[16]: 08
+FC1输出[17]: 00
+FC1输出[18]: 00
+FC1输出[19]: 00
+FC1输出[20]: 00
+FC1输出[21]: 00
+FC1输出[22]: 01
+FC1输出[23]: 00
+FC1输出[24]: 00
+FC1输出[25]: 00
+FC1输出[26]: 00
+FC1输出[27]: 02
+FC1输出[28]: 00
+FC1输出[29]: 00
+FC1输出[30]: 00
+FC1输出[31]: 08
+FC1输出[32]: 03
+FC1输出[33]: 00
+FC1输出[34]: 00
+FC1输出[35]: 00
+FC1输出[36]: 00
+FC1输出[37]: 00
+FC1输出[38]: 00
+FC1输出[39]: 00
+FC1输出[40]: 00
+FC1输出[41]: 04
+FC1输出[42]: 01
+FC1输出[43]: 00
+FC1输出[44]: 00
+FC1输出[45]: 03
+FC1输出[46]: 00
+FC1输出[47]: 00
+FC1输出[48]: 00
+FC1输出[49]: 00
+FC1输出[50]: 00
+FC1输出[51]: 00
+FC1输出[52]: 00
+FC1输出[53]: 01
+FC1输出[54]: 00
+FC1输出[55]: 00
+FC1输出[56]: 00
+FC1输出[57]: 00
+FC1输出[58]: 00
+FC1输出[59]: 00
+FC1输出[60]: 00
+FC1输出[61]: 00
+FC1输出[62]: 00
+FC1输出[63]: 09
+FC1输出[64]: 00
+FC1输出[65]: 00
+FC1输出[66]: 00
+FC1输出[67]: 06
+FC1输出[68]: 06
+FC1输出[69]: 03
+FC1输出[70]: 00
+FC1输出[71]: 00
+FC1输出[72]: 00
+FC1输出[73]: 00
+FC1输出[74]: 00
+FC1输出[75]: 00
+FC1输出[76]: 00
+FC1输出[77]: 00
+FC1输出[78]: 00
+FC1输出[79]: 00
+FC1输出[80]: 00
+FC1输出[81]: 00
+FC1输出[82]: 00
+FC1输出[83]: 00
+FC1输出[84]: 00
+FC1输出[85]: 00
+FC1输出[86]: 00
+FC1输出[87]: 03
+FC1输出[88]: 00
+FC1输出[89]: 00
+FC1输出[90]: 06
+FC1输出[91]: 00
+FC1输出[92]: 00
+FC1输出[93]: 00
+FC1输出[94]: 00
+FC1输出[95]: 00
+FC1输出[96]: 03
+FC1输出[97]: 05
+FC1输出[98]: 00
+FC1输出[99]: 02
+FC1输出[100]: 00
+FC1输出[101]: 00
+FC1输出[102]: 00
+FC1输出[103]: 00
+FC1输出[104]: 00
+FC1输出[105]: 00
+FC1输出[106]: 02
+FC1输出[107]: 00
+FC1输出[108]: 00
+FC1输出[109]: 03
+FC1输出[110]: 00
+FC1输出[111]: 00
+FC1输出[112]: 0d
+FC1输出[113]: 00
+FC1输出[114]: 00
+FC1输出[115]: 00
+FC1输出[116]: 00
+FC1输出[117]: 00
+FC1输出[118]: 00
+FC1输出[119]: 00
+FC1输出[120]: 00
+FC1输出[121]: 00
+FC1输出[122]: 00
+FC1输出[123]: 00
+FC1输出[124]: 00
+FC1输出[125]: 00
+FC1输出[126]: 00
+FC1输出[127]: 00
+=== FC1层输出完成，共 128 个特征 ===
+FC2输出[0]: 07
+FC2输出[1]: 00
+FC2输出[2]: 06
+FC2输出[3]: 00
+FC2输出[4]: 00
+FC2输出[5]: 04
+FC2输出[6]: 0a
+FC2输出[7]: 00
+FC2输出[8]: 00
+FC2输出[9]: 00
+FC2输出[10]: 06
+FC2输出[11]: 0c
+FC2输出[12]: 00
+FC2输出[13]: 00
+FC2输出[14]: 00
+FC2输出[15]: 01
+FC2输出[16]: 00
+FC2输出[17]: 01
+FC2输出[18]: 03
+FC2输出[19]: 00
+FC2输出[20]: 00
+FC2输出[21]: 00
+FC2输出[22]: 03
+FC2输出[23]: 00
+FC2输出[24]: 00
+FC2输出[25]: 0e
+FC2输出[26]: 00
+FC2输出[27]: 09
+FC2输出[28]: 0a
+FC2输出[29]: 0a
+FC2输出[30]: 00
+FC2输出[31]: 00
+=== FC2层输出完成，共 32 个特征 ===
+FC3输出[0]: 09
+FC3输出[1]: f5
+=== FC3层输出完成，共 2 个特征 ===
+=== 所有层输出完成，总计 162 个输出特征 ===
+仿真完成

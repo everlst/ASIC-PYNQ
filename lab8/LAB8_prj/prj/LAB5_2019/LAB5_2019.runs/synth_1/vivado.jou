@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Nov 15 15:48:26 2025
+# Process ID: 23800
+# Current directory: D:/zynq_pro/LAB6_8bit/LAB6_8bit/prj/LAB5_2019/LAB5_2019.runs/synth_1
+# Command line: vivado.exe -log fc_top_ip_with_control.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fc_top_ip_with_control.tcl
+# Log file: D:/zynq_pro/LAB6_8bit/LAB6_8bit/prj/LAB5_2019/LAB5_2019.runs/synth_1/fc_top_ip_with_control.vds
+# Journal file: D:/zynq_pro/LAB6_8bit/LAB6_8bit/prj/LAB5_2019/LAB5_2019.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fc_top_ip_with_control.tcl -notrace

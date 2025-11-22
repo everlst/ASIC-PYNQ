@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LAB5_2019.srcs/sources_1/ip/bias_weight_fc3/sim/bias_weight_fc3.v" \
+"../../../../LAB5_2019.srcs/sources_1/ip/weight_ram_fc3/sim/weight_ram_fc3.v" \
+"../../../../LAB5_2019.srcs/sources_1/ip/bias_ram_fc2/sim/bias_ram_fc2.v" \
+"../../../../LAB5_2019.srcs/sources_1/ip/weight_ram_fc2/sim/weight_ram_fc2.v" \
+"../../../../LAB5_2019.srcs/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v" \
+"../../../../LAB5_2019.srcs/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v" \
+"../../../../LAB5_2019.srcs/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v" \
+"../../../../../../rtl/adder_tree.v" \
+"../../../../../../rtl/adder_tree2.v" \
+"../../../../../../rtl/adder_tree3.v" \
+"../../../../../../rtl/fc.v" \
+"../../../../../../rtl/fc_2.v" \
+"../../../../../../rtl/fc_3.v" \
+"../../../../../../rtl/mult_array24.v" \
+"../../../../../../rtl/multi_array.v" \
+"../../../../../../rtl/multi_array32.v" \
+"../../../../../../rtl/top.v" \
+"../../../../../../sim/test_bench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

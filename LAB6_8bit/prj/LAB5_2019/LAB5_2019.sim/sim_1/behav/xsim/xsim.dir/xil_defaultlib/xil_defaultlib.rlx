@@ -1,0 +1,26 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_fc2/sim/bias_ram_fc2.v,1760343561,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc2/sim/weight_ram_fc2.v,,bias_ram_fc2,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v,1760343585,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v,,bias_ram_rd3,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_weight_fc3/sim/bias_weight_fc3.v,1760343612,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc3/sim/weight_ram_fc3.v,,bias_weight_fc3,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v,1760952535,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree.v,,input_ram_rd3,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/mult_16/sim/mult_16.vhd,1761047269,vhdl,,,,mult_16,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/mult_8/sim/mult_8.vhd,1760344456,vhdl,,,,mult_8,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/multi_24/sim/multi_24.vhd,1761048187,vhdl,,,,multi_24,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc2/sim/weight_ram_fc2.v,1760343692,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_rd3/sim/bias_ram_rd3.v,,weight_ram_fc2,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_fc3/sim/weight_ram_fc3.v,1760343730,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_fc2/sim/bias_ram_fc2.v,,weight_ram_fc3,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/weight_ram_rd3/sim/weight_ram_rd3.v,1760950146,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/input_ram_rd3/sim/input_ram_rd3.v,,weight_ram_rd3,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree.v,1761030592,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree2.v,,adder_tree,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree2.v,1761066508,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree3.v,,adder_tree2,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/adder_tree3.v,1761069560,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc.v,,adder_tree3,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc.v,1762158111,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_2.v,,fc_1,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_2.v,1762161333,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_3.v,,fc_2,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/fc_3.v,1762161501,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/mult_array24.v,,fc_3,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/mult_array24.v,1761038179,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array.v,,multi_array24,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array.v,1759814852,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array32.v,,multiplier_array,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/multi_array32.v,1761048546,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v,,multi_array32,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/rtl/top.v,1762685370,verilog,,Y:/Code/github/ASIC-PYNQ/LAB6_8bit/sim/test_bench.v,,fc_top_ip,,,,,,,,
+Y:/Code/github/ASIC-PYNQ/LAB6_8bit/sim/test_bench.v,1762159523,verilog,,,,tb_fc_top_ip,,,,,,,,

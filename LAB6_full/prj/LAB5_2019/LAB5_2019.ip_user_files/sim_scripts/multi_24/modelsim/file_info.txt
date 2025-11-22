@@ -1,0 +1,1 @@
+multi_24.vhd,vhdl,xil_defaultlib,../../../../LAB5_2019.srcs/sources_1/ip/multi_24/sim/multi_24.vhd,

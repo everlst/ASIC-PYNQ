@@ -1,0 +1,1 @@
+mult_8.vhd,vhdl,xil_defaultlib,../../../../LAB5_2019.srcs/sources_1/ip/mult_8/sim/mult_8.vhd,

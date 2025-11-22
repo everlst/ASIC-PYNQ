@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov 18 11:28:17 2025
+# Process ID: 5392
+# Current directory: Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6728 Y:\Code\github\ASIC-PYNQ\LAB6_8bit\prj\LAB5_2019\LAB5_2019.xpr
+# Log file: Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019/vivado.log
+# Journal file: Y:/Code/github/ASIC-PYNQ/LAB6_8bit/prj/LAB5_2019\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 18 11:28:48 2025...
