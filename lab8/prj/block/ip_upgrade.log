@@ -1,0 +1,100 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Nov 24 17:50:28 2025
+| Host         : everlasting running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pl_top_fc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pl_top_fc_0_0 (xilinx.com:user:pl_top_fc:1.0) from (Rev. 6) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Nov 24 17:43:00 2025
+| Host         : everlasting running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pl_top_fc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pl_top_fc_0_0 (xilinx.com:user:pl_top_fc:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Nov 24 17:30:51 2025
+| Host         : everlasting running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pl_top_fc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pl_top_fc_0_0 (xilinx.com:user:pl_top_fc:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Nov 24 17:25:22 2025
+| Host         : everlasting running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pl_top_fc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pl_top_fc_0_0 (xilinx.com:user:pl_top_fc:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Nov 24 16:56:24 2025
+| Host         : everlasting running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_pl_top_fc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_pl_top_fc_0_0 (xilinx.com:user:pl_top_fc:1.0) from (Rev. 2) to (Rev. 3)
+

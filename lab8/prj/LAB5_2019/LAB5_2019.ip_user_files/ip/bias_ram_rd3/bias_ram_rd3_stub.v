@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-// Date        : Sun Nov 23 01:09:31 2025
+// Date        : Sun Nov 23 01:09:30 2025
 // Host        : FB47 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_rd3/bias_ram_rd3_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top bias_ram_rd3 -prefix
+//               bias_ram_rd3_ bias_ram_rd3_stub.v
 // Design      : bias_ram_rd3
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1

@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:user:pl_top_fc:1.0
-// IP Revision: 2
+// IP Revision: 3
 
 (* X_CORE_INFO = "pl_top_fc,Vivado 2020.2" *)
 (* CHECK_LICENSE_TYPE = "design_1_pl_top_fc_0_0,pl_top_fc,{}" *)
-(* CORE_GENERATION_INFO = "design_1_pl_top_fc_0_0,pl_top_fc,{x_ipProduct=Vivado 2020.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=pl_top_fc,x_ipVersion=1.0,x_ipCoreRevision=2,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,DATA_WIDTH=64}" *)
+(* CORE_GENERATION_INFO = "design_1_pl_top_fc_0_0,pl_top_fc,{x_ipProduct=Vivado 2020.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=pl_top_fc,x_ipVersion=1.0,x_ipCoreRevision=3,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,DATA_WIDTH=64}" *)
 (* IP_DEFINITION_SOURCE = "package_project" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_pl_top_fc_0_0 (

@@ -1,12 +1,16 @@
 #-----------------------------------------------------------
-# Vivado v2020.2 (64-bit)
-# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
-# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sun Nov 23 02:06:38 2025
-# Process ID: 14908
-# Current directory: Y:/Code/github/ASIC-PYNQ/LAB1/prj
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10640 Y:\Code\github\ASIC-PYNQ\LAB1\prj\ASIC-PYNQ.xpr
-# Log file: Y:/Code/github/ASIC-PYNQ/LAB1/prj/vivado.log
-# Journal file: Y:/Code/github/ASIC-PYNQ/LAB1/prj\vivado.jou
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Nov 24 13:51:34 2025
+# Process ID: 23896
+# Current directory: F:/GitHub/ASIC-PYNQ/LAB1/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30292 F:\GitHub\ASIC-PYNQ\LAB1\prj\ASIC-PYNQ.xpr
+# Log file: F:/GitHub/ASIC-PYNQ/LAB1/prj/vivado.log
+# Journal file: F:/GitHub/ASIC-PYNQ/LAB1/prj\vivado.jou
+# Running On: everlasting, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 24, Host memory: 68324 MB
 #-----------------------------------------------------------
 start_gui
+open_project F:/GitHub/ASIC-PYNQ/LAB1/prj/ASIC-PYNQ.xpr
+update_compile_order -fileset sources_1
+open_bd_design {F:/GitHub/ASIC-PYNQ/LAB1/prj/ASIC-PYNQ.srcs/sources_1/bd/design_1/design_1.bd}

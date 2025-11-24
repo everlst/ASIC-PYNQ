@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
 // Date        : Sun Nov 23 01:54:29 2025
 // Host        : FB47 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_auto_pc_1 -prefix
+//               design_1_auto_pc_1_ design_1_auto_pc_1_stub.v
 // Design      : design_1_auto_pc_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1

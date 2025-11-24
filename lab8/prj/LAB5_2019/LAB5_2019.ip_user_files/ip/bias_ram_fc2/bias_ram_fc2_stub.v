@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
 // Date        : Sun Nov  9 14:33:08 2025
 // Host        : Theway running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               d:/zynq_pro/LAB6_8bit/LAB6_8bit/prj/LAB5_2019/LAB5_2019.srcs/sources_1/ip/bias_ram_fc2/bias_ram_fc2_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top bias_ram_fc2 -prefix
+//               bias_ram_fc2_ bias_ram_fc2_stub.v
 // Design      : bias_ram_fc2
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1

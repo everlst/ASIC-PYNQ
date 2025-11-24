@@ -2,11 +2,11 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sun Nov  9 14:32:18 2025
-# Process ID: 14256
-# Current directory: D:/zynq_pro/LAB6_8bit/LAB6_8bit/prj/LAB5_2019/LAB5_2019.runs/bias_weight_fc3_synth_1
+# Start of session at: Mon Nov 24 15:44:13 2025
+# Process ID: 28584
+# Current directory: F:/GitHub/ASIC-PYNQ/lab8/prj/LAB5_2019/LAB5_2019.runs/bias_weight_fc3_synth_1
 # Command line: vivado.exe -log bias_weight_fc3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bias_weight_fc3.tcl
-# Log file: D:/zynq_pro/LAB6_8bit/LAB6_8bit/prj/LAB5_2019/LAB5_2019.runs/bias_weight_fc3_synth_1/bias_weight_fc3.vds
-# Journal file: D:/zynq_pro/LAB6_8bit/LAB6_8bit/prj/LAB5_2019/LAB5_2019.runs/bias_weight_fc3_synth_1\vivado.jou
+# Log file: F:/GitHub/ASIC-PYNQ/lab8/prj/LAB5_2019/LAB5_2019.runs/bias_weight_fc3_synth_1/bias_weight_fc3.vds
+# Journal file: F:/GitHub/ASIC-PYNQ/lab8/prj/LAB5_2019/LAB5_2019.runs/bias_weight_fc3_synth_1\vivado.jou
 #-----------------------------------------------------------
 source bias_weight_fc3.tcl -notrace

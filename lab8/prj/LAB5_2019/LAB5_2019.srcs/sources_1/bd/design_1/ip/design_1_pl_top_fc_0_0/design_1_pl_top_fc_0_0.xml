@@ -531,11 +531,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Nov 22 17:52:19 UTC 2025</spirit:value>
+            <spirit:value>Mon Nov 24 07:37:44 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:241088e6</spirit:value>
+            <spirit:value>9:e16cf998</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -546,7 +546,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:241088e6</spirit:value>
+            <spirit:value>9:e16cf998</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -562,11 +562,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Nov 22 17:52:19 UTC 2025</spirit:value>
+            <spirit:value>Mon Nov 24 07:37:44 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:241088e6</spirit:value>
+            <spirit:value>9:e16cf998</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -581,11 +581,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Nov 22 17:52:19 UTC 2025</spirit:value>
+            <spirit:value>Mon Nov 24 07:37:44 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:e3ff704d</spirit:value>
+            <spirit:value>9:26830133</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -601,11 +601,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Nov 22 17:52:19 UTC 2025</spirit:value>
+            <spirit:value>Mon Nov 24 07:37:44 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:e3ff704d</spirit:value>
+            <spirit:value>9:26830133</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -618,12 +618,8 @@
         </spirit:fileSetRef>
         <spirit:parameters>
           <spirit:parameter>
-            <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Nov 22 18:07:58 UTC 2025</spirit:value>
-          </spirit:parameter>
-          <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:241088e6</spirit:value>
+            <spirit:value>9:e16cf998</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -846,11 +842,11 @@
     <spirit:fileSet>
       <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>src/fc2.0.bias.coe</spirit:name>
+        <spirit:name>src/sel_data_processed.coe</spirit:name>
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/fc1.0.bias.coe</spirit:name>
+        <spirit:name>src/fc3.weight4.coe</spirit:name>
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -862,7 +858,7 @@
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/fc3.weight4.coe</spirit:name>
+        <spirit:name>src/fc2.0.bias.coe</spirit:name>
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -870,83 +866,59 @@
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/bias_ram_fc2/bias_ram_fc2.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/bias_ram_rd3/bias_ram_rd3.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/bias_weight_fc3/bias_weight_fc3.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/mult_8/mult_8.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/weight_ram_fc2/weight_ram_fc2.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/weight_ram_fc3/weight_ram_fc3.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/weight_ram_rd3/weight_ram_rd3.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/adder_tree.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/adder_tree3.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/asy_fifo.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/axis_rd_interface_fc.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/axis_wr_interface_fc.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/fc.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/fc_2.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/fc_3.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/fc_top_wrap.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/multi_array.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/top.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/sel_data_processed.coe</spirit:name>
+        <spirit:name>src/fc1.0.bias.coe</spirit:name>
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9510/src/pl_top_fc.v</spirit:name>
+        <spirit:name>../../ipshared/3d58/src/adder_tree.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/adder_tree3.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/asy_fifo.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/axis_rd_interface_fc.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/axis_wr_interface_fc.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/fc.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/fc_2.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/fc_3.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/fc_top_wrap.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/multi_array.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/pl_top_fc.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/test_bench.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/top.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -961,11 +933,11 @@
     <spirit:fileSet>
       <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>src/fc2.0.bias.coe</spirit:name>
+        <spirit:name>src/sel_data_processed.coe</spirit:name>
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/fc1.0.bias.coe</spirit:name>
+        <spirit:name>src/fc3.weight4.coe</spirit:name>
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -977,7 +949,7 @@
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/fc3.weight4.coe</spirit:name>
+        <spirit:name>src/fc2.0.bias.coe</spirit:name>
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -985,83 +957,59 @@
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/bias_ram_fc2/bias_ram_fc2.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/bias_ram_rd3/bias_ram_rd3.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/bias_weight_fc3/bias_weight_fc3.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/mult_8/mult_8.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/weight_ram_fc2/weight_ram_fc2.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/weight_ram_fc3/weight_ram_fc3.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/weight_ram_rd3/weight_ram_rd3.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/adder_tree.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/adder_tree3.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/asy_fifo.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/axis_rd_interface_fc.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/axis_wr_interface_fc.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/fc.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/fc_2.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/fc_3.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/fc_top_wrap.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/multi_array.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/9510/src/top.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/sel_data_processed.coe</spirit:name>
+        <spirit:name>src/fc1.0.bias.coe</spirit:name>
         <spirit:userFileType>coe</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/9510/src/pl_top_fc.v</spirit:name>
+        <spirit:name>../../ipshared/3d58/src/adder_tree.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/adder_tree3.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/asy_fifo.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/axis_rd_interface_fc.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/axis_wr_interface_fc.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/fc.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/fc_2.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/fc_3.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/fc_top_wrap.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/multi_array.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/pl_top_fc.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/test_bench.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/3d58/src/top.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1129,22 +1077,28 @@
       <xilinx:xpmLibraries>
         <xilinx:xpmLibrary>XPM_MEMORY</xilinx:xpmLibrary>
       </xilinx:xpmLibraries>
-      <xilinx:coreRevision>2</xilinx:coreRevision>
+      <xilinx:coreRevision>3</xilinx:coreRevision>
       <xilinx:tags>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@58beb2c8_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d73a8f6_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@48c211ee_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f307d88_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@489d1704_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@caed9d6_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@64e807_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@184e3d7c_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@44fb3591_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@281c0d31_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f98aac_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@40910c2f_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@553cbd35_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3884567e_ARCHIVE_LOCATION">y:/Code/github/ASIC-PYNQ/LAB8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="nopcore"/>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@730cb86_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d4bfed9_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@de84c2a_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f28f38b_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9389fd6_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e3bd21c_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c368201_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@188fe1ac_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e4e8a25_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b3065e0_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ff46d11_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3661dc73_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@460cbb7_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@94a8a0f_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f149db0_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@414fe620_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11a39fdf_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@613c260b_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c80c2b3_ARCHIVE_LOCATION">f:/GitHub/ASIC-PYNQ/lab8/prj/ip_package</xilinx:tag>
       </xilinx:tags>
       <xilinx:configElementInfos>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CORE_CLK.ASSOCIATED_BUSIF" xilinx:valuePermission="bd_and_user"/>
@@ -1189,7 +1143,7 @@
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="cb53014e"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="ba1289ec"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="bf46fb5f"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="e64ffe8e"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="8534c40b"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="63f129ae"/>

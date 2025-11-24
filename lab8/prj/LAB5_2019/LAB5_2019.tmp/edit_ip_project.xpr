@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="54" Path="y:/code/github/asic-pynq/lab8/prj/lab5_2019/lab5_2019.tmp/edit_ip_project.xpr">
+<Project Version="7" Minor="54" Path="f:/github/asic-pynq/lab8/prj/lab5_2019/lab5_2019.tmp/edit_ip_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="5658cdda2e604e5b93473b79d0123e71"/>
+    <Option Name="Id" Val="12fee85e70c6437f838e52fb060e9b95"/>
     <Option Name="Part" Val="xc7z020clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -35,6 +35,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>
@@ -74,7 +75,7 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/adder_tree.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/adder_tree.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -82,7 +83,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/adder_tree3.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/adder_tree3.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -90,7 +91,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/asy_fifo.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -98,7 +99,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc_2.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/axis_rd_interface_fc.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -106,7 +107,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc_3.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/axis_wr_interface_fc.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -114,7 +115,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/multi_array.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -122,7 +123,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/sync_fifo.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc_2.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -130,7 +131,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/top.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc_3.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -138,7 +139,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc_axis_ip.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc_top_wrap.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -146,49 +147,80 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc3.weight4.coe">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/multi_array.v">
+        <FileInfo>
+          <Attr Name="Library" Val=""/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/top.v">
+        <FileInfo>
+          <Attr Name="Library" Val=""/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/pl_top_fc.v">
+        <FileInfo>
+          <Attr Name="Library" Val=""/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/sel_data_processed.coe">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc1.0.weight_128.coe">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc3.weight4.coe">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc2.0.weight32.coe">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc3.bias.coe">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc2.0.bias.coe">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc2.0.weight32.coe">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/fc3.bias.coe">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc2.0.bias.coe">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/sel_data_processed.coe">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc1.0.weight_128.coe">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/test_bench.v">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/fc1.0.bias.coe">
+        <FileInfo>
+          <Attr Name="Library" Val=""/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/test_bench.v">
         <FileInfo>
           <Attr Name="Library" Val=""/>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -197,13 +229,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/component.xml">
+      <File Path="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/component.xml">
         <FileInfo SFType="IPXACT"/>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="fc_axis_ip"/>
-        <Option Name="TopRTLFile" Val="$PPRDIR/../../../../../../../Code/github/ASIC-PYNQ/LAB8/prj/ip_package/src/top.v"/>
+        <Option Name="TopModule" Val="pl_top_fc"/>
+        <Option Name="TopRTLFile" Val="$PPRDIR/../../../../../../GitHub/ASIC-PYNQ/lab8/prj/ip_package/src/top.v"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -215,7 +247,7 @@
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="fc_axis_ip"/>
+        <Option Name="TopModule" Val="pl_top_fc"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
