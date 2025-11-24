@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Nov 22 17:18:26 2025
+# Process ID: 14008
+# Current directory: Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7352 Y:\Code\github\ASIC-PYNQ\LAB8\prj\LAB5_2019\LAB5_2019.xpr
+# Log file: Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019/vivado.log
+# Journal file: Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019/LAB5_2019.xpr
+INFO: [Project 1-313] Project file moved from 'D:/zynq_pro/LAB6_8bit/LAB6_8bit/prj/LAB5_2019' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019/vivado_pid14008.debug)
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1137.613 ; gain = 0.000
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 22 17:19:30 2025...

@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov 23 02:05:18 2025
+# Process ID: 29884
+# Current directory: E:/asic/prj/LAB5_2019
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24452 E:\asic\prj\LAB5_2019\LAB5_2019.xpr
+# Log file: E:/asic/prj/LAB5_2019/vivado.log
+# Journal file: E:/asic/prj/LAB5_2019\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/asic/prj/LAB5_2019/LAB5_2019.xpr
+INFO: [Project 1-313] Project file moved from 'Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/asic/prj/ip_package'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pl_top_fc_0_0' generated file not found 'e:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/ip/design_1_pl_top_fc_0_0/design_1_pl_top_fc_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pl_top_fc_0_0' generated file not found 'e:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/ip/design_1_pl_top_fc_0_0/design_1_pl_top_fc_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pl_top_fc_0_0' generated file not found 'e:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/ip/design_1_pl_top_fc_0_0/design_1_pl_top_fc_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pl_top_fc_0_0' generated file not found 'e:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/ip/design_1_pl_top_fc_0_0/design_1_pl_top_fc_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pl_top_fc_0_0' generated file not found 'e:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/ip/design_1_pl_top_fc_0_0/design_1_pl_top_fc_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+update_compile_order -fileset sources_1
+generate_target all [get_files  E:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'design_1' - hence not re-generating.
+catch { config_ip_cache -export [get_ips -all design_1_pl_top_fc_0_0] }
+export_ip_user_files -of_objects [get_files E:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_pl_top_fc_0_0_synth_1 -jobs 12
+[Sun Nov 23 02:05:42 2025] Launched design_1_pl_top_fc_0_0_synth_1...
+Run output will be captured here: E:/asic/prj/LAB5_2019/LAB5_2019.runs/design_1_pl_top_fc_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files E:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/design_1.bd] -directory E:/asic/prj/LAB5_2019/LAB5_2019.ip_user_files/sim_scripts -ip_user_files_dir E:/asic/prj/LAB5_2019/LAB5_2019.ip_user_files -ipstatic_source_dir E:/asic/prj/LAB5_2019/LAB5_2019.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/modeltech64_2020.4/vivado2019.2_lib} {questa=E:/asic/prj/LAB5_2019/LAB5_2019.cache/compile_simlib/questa} {riviera=E:/asic/prj/LAB5_2019/LAB5_2019.cache/compile_simlib/riviera} {activehdl=E:/asic/prj/LAB5_2019/LAB5_2019.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property top design_1_wrapper [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Sun Nov 23 02:08:35 2025] Launched synth_1...
+Run output will be captured here: E:/asic/prj/LAB5_2019/LAB5_2019.runs/synth_1/runme.log
+[Sun Nov 23 02:08:35 2025] Launched impl_1...
+Run output will be captured here: E:/asic/prj/LAB5_2019/LAB5_2019.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/asic/prj/LAB5_2019/LAB5_2019.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Sun Nov 23 02:09:21 2025] Launched synth_1...
+Run output will be captured here: E:/asic/prj/LAB5_2019/LAB5_2019.runs/synth_1/runme.log
+[Sun Nov 23 02:09:21 2025] Launched impl_1...
+Run output will be captured here: E:/asic/prj/LAB5_2019/LAB5_2019.runs/impl_1/runme.log
+open_bd_design {E:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <E:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:user:pl_top_fc:1.0 - pl_top_fc_0
+Successfully read diagram <design_1> from block design file <E:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design {E:/asic/prj/LAB5_2019/LAB5_2019.srcs/sources_1/bd/design_1/design_1.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 23 02:13:55 2025...

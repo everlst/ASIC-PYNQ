@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov 24 10:55:18 2025
+# Process ID: 14996
+# Current directory: Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4948 Y:\Code\github\ASIC-PYNQ\LAB8\prj\LAB5_2019\LAB5_2019.xpr
+# Log file: Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019/vivado.log
+# Journal file: Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Y:/Code/github/ASIC-PYNQ/LAB8/prj/LAB5_2019/LAB5_2019.xpr
+update_compile_order -fileset sources_1
