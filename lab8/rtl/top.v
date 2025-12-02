@@ -80,11 +80,14 @@ module fc_top_ip (
 
   reg [1:0] in_addr_d0;
   reg [1:0] in_addr_d1;
+  reg [1:0] in_addr_d2;
   always @(posedge clk_i) begin
     in_addr_d0 <= in_addr;
     in_addr_d1 <= in_addr_d0;
+    in_addr_d2 <= in_addr_d1;
   end
-  assign in_addr_o = in_addr_d1;
+  assign in_addr_o = in_addr_d2;
+
 
   // === 第一层全连接层 (512 -> 128) ===
   wire done_o_1;  // 第一层完成信号

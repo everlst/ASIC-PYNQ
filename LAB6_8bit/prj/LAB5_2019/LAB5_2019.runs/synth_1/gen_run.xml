@@ -132,11 +132,11 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="bias_ram_fc2"/>
   <BlockFileSet Type="BlockSrcs" Name="weight_ram_fc3"/>
+  <BlockFileSet Type="BlockSrcs" Name="bias_ram_fc2"/>
   <BlockFileSet Type="BlockSrcs" Name="bias_ram_rd3"/>
-  <BlockFileSet Type="BlockSrcs" Name="bias_weight_fc3"/>
   <BlockFileSet Type="BlockSrcs" Name="weight_ram_fc2"/>
+  <BlockFileSet Type="BlockSrcs" Name="bias_weight_fc3"/>
   <BlockFileSet Type="BlockSrcs" Name="mult_8"/>
   <BlockFileSet Type="BlockSrcs" Name="mult_16"/>
   <BlockFileSet Type="BlockSrcs" Name="multi_24"/>
